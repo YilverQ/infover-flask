@@ -3,7 +3,7 @@ import json
 
 def leer_data():
 	#abrir el archivo JSON
-	with open("../src/data.json", "r") as json_file:
+	with open("data.json", "r") as json_file:
 		return json.load(json_file)
 
 
