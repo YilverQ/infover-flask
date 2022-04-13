@@ -1,0 +1,50 @@
+API_Rest
+[
+	1----------------------------
+	Arquitectura Java
+	Cecilio Álvares Cuales
+	¿Qué Es Rest?
+	www.arquitecturajava.com
+
+	2----------------------------
+
+
+	3----------------------------
+	
+
+	4----------------------------
+
+
+	5----------------------------
+
+]
+
+
+((((((((((	((((((((((((((((())	)))))))))))))))	))))))))))
+&&&&&&&&&&	&&&&&&&&&&&&&&&&&&&	&&&&&&&&&&&&&&&	&&&&&&&&&&
+((((((((((	((((((((((((((((())	)))))))))))))))	))))))))))
+
+Software's Architecture:
+
+	El mantenimiento es esencial, porque aunque un software se pueda desarrollar en unas pocas semanas o meses, lo mñas porbable es que se mantenga durante años, añadiendo nuevas funcionalidades requeridas, o corrigiendo problemas existentes. El crecimiento también es fundamental, porque todo software cuya funcionalidad no se amplíe o se modifique, tiende a ser inservivle en un relativamente corto espacio de tiempo.
+
+	A medida que el software comienza a crecer y a hacerse más complejo, es importante que tenga una forma bien definida, de modo que seamos capaces de entenderlo como un todo. De no ser así, al examinar cada una de sus partes por separado, lo más normal es que seamos incapaces de interpretar correctamente el funcionamiento y el motivo de su existencia.
+
+	La arquitectura del software por tanto define la estructura que debe de tener un software, las piezas que debemos contruir y el modo en el que se deben juntar y trabajar entre ellas. Se define a alto nivel mediante una serie de patrones y abstracciones que seguir para el desarrollo del software y para la interacción entre sus diversas piezas. 
+
+	-----------------
+
+	Una arquitectura de software describe los componentes básicos de un sitema de software y su combinación interna.
+
+Introducción:
+
+	En el mundo de desarrollo nos enfrentamos a sistemas cada vez más complejos y aunque es software comience como algo pequeño, es posible que pase mucho tiempo activo para ir añadiendo funcionalidades y corrigiendo errores existentes mientras transcurre el tiempo de vida del software. A medida que el software comienza a crecer se vuelve imposible de mantener si no se toman las medidas necesarias, es importante que el software tenga una forma bien definida, de modo que seamos capaces de entenderlo y por supuesto mantenerlo. La arquitectura de software es una rama de la informática y como puede ser la ingeniería de software, la arquitectura de software puede ayudarnos a desarrollar aplicaciones de muy buena calidad.
+
+Arquitectura De Software:
+
+	La arquitectura de software es una disciplina relevante para los desarrolladores de software hoy en día y aunque no siempre se le otorga su correspondiente importancia como lo solemos hacer con los lenguajes de programación, con ella lograremos realizar aplicaciones con rapidez, eficacia y fiabilidad. La arquitectura de software por tanto define la estructura que debe de tener un software, las piezas que que debemos ir empleando, así como se deben de juntar y trabajar entre ellas como si fueran bloques de Legos; mediante una serie de patrones y abstracciones que debemos seguir para el desarrollo de software y para interacción entre sus diversas piezas.
+
+
+Conclusión:
+
+	En resumen, la arquitectura de software es una disciplina que merece la pena estudiar en profundida si quieres se un desarrollador completo ya que es necesaria para la creación de software de alta calidad y aunque si bien no es tan mencionada como otras tecnologías como lo son los lenguajes de programación si están en la mayoría de los sistemas informáticos complejos y no tan complejos. 

@@ -1,0 +1,17 @@
+#Este archivo contiene las actualizaciones más recientes de la aplicación.
+
+"""
+	Estructura de las actualizaciones:
+__Fecha__
+__Version__
+__Información__
+__TrabajoFuturo__
+"""
+
+#__ $$ __#
+Fecha: 28 de Mayo del 2021
+Version: 0.3.1
+¿¿__Información__??
+Se completo la documentación del código, 
+la mayoría por parte de los archivos .py
+
