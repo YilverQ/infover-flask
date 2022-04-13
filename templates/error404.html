@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="author" content="Yilver Quevedo">
+	<meta name="description" content="Pagina de Prueba con FLask">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- Title -->
+	<title>Página No Encontrada - Infover</title>
+	
+	<!-- Estilos -->
+    <link rel="shortcut icon" type="image/x-icon"  href="{{ url_for('static', filename='img/favicon.png') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/normalize.css') }}">
+	<link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/estilos.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/error404.css') }}">
+</head>
+<body>
+	<article class="error404">
+		<div class="centralDIV">
+			<div class="carta">	
+				<h3>Oops! Página No Encontrada</h3>
+				<h1>404</h1>
+				<p>Lo sentimos, Infover no pudo encontrar tu página</p>
+				<a href="/">
+					<div class="boton">
+						<h4>Volver Al Inicio</h4>
+					</div>
+				</a>
+			</div>
+		</div>
+	</article>
+</body>
+</html>
