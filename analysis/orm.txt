@@ -1,0 +1,77 @@
+ORM
+[
+	1----------------------------
+	Programar Fácil Con Arduino - Luis Del Valle Hernández - ¿Qué Es Un ORM? - www.programarfacil.com
+
+	2----------------------------
+	NeoAttack - ORM Concepto de ORM - www.neoattack.com
+
+	3----------------------------
+	Cipsa - Ángel Aguinaga - ¿Qué es un ORM y cuándo emplearlo? - www.cipsa.net
+
+	4----------------------------
+	Dreams Team - Miguel Romanos - ¿Qué es un ORM? - www.dreams.es
+
+	5----------------------------
+
+]
+
+
+((((((((((	((((((((((((((((())	)))))))))))))))	))))))))))
+&&&&&&&&&&	&&&&&&&&&&&&&&&&&&&	&&&&&&&&&&&&&&&	&&&&&&&&&&
+((((((((((	((((((((((((((((())	)))))))))))))))	))))))))))
+
+ORM:
+
+	Programar Facil:
+
+		Hoy hablaremos del Mapeo Objeto-Relacional o como se conoce común mente ORM (del ingles Object Relational Mapping). Algunos de vosotros ya sabréis que son pero, para aquellos que no los conozcan, un ORM te permite convetir los datos de tus objetos en un formato correcto para poder guardar la información en una base de datos creándose una base de datos virtual donde los datos que se encuentran en nuestra aplicación, quedan vinculados a la base de datos. 
+
+
+	NeoAttack:
+		El ORM (Object Relational Mapping) es una técnica de programación que permite la relación de los objetos con los datos que ellos mimso representan. De esta forma, consigue quee las tareas de acceso a datos se simplifiquen para el programador. 
+
+		Su uso se ha incrementado en los últimos años, aventajándole al código SQL por la capacidad de delimitar el número de registros de una consulta, adeán de liberar al programador de la escritura manual para crear las consultas y gestionar los datos en el RDBMS. De esta forma, permite que el mapeo de la base de datos sea automático. 
+
+		En resumen, funciona como una solución intermedia que elimina la brecha entre el manejo del lenguaje orientado a objetos y la bases de datos srelacional, facilitando la tarea del programador y logrando que el acceso a los datos sea automático.
+
+		Para que Sirve?
+
+			Sirve para que el proceso de programción de la base de datos sea ràpida, así como para reducir los códigos insertados en las tablas y lograr que el mapeo sea lo más automático posible. Todo ello, sin necesiad de que el programador esté insertando códigos y adaptñansolos a las dinstintas tablas de acuerdo a las modificaciones que requiere la aplicación. 
+
+			Alguna de las ventajas del ORM la encontramos en la seguridad que brinda a la capa de acceso a datos contra ataques. También la facilidad de mantener el código y un lenguaje propio para la realización de consultas. Aunque este último puede generar ciertas dificultades, ya que para realizar un buen uso del ORM, se requiere un profundo conocimiento de su funcionamiento. 
+
+	Cipsa:
+
+		Un  ORM es una herramienta de software que automatiza el mapeo entre el modelo de datos y el esquema entidad relación. Esto conlleva a dos ventajas básicas:
+
+			Agiliza el desarrollo y reduce la cantidad de código al automatizar el mapeo permitiendo generar las clases entidad a partir de una base de datos existente, o viceversa. 
+
+			Independiza la aplicación del tipo de base de datos (SQL Server, Oracle, MySQL...), permitiendo la obtención de datos usando objetos y métodos sin escribir consultas SQL.
+
+		Cuándo Usar Un ORM:
+			El uso del ORM tiene como contrapartida una penalización ene l rendimiento al trabajarse con objetos en vez de directamente con los datos y usarse SQL generadas no optimizadas. 
+
+			Es por ello que el uso de ORM está especialmente recomendado en aplicaciones con modelos de datos complejos donde el rendimiennto no es crítico. El uso del ORM acelera el desarrollo evitando la escritura de código reperitivo para consultas, altas, bajas y modificaciones (CRUD), y dado que el rendimiento no es crítico tampoco es preciso el empleo de SQL optimizadas. 
+
+			En el caso de aplicaciones con modelos de datos simpoles o donde el rendimiento es crítico no es recomendable el uso de ORM, debido a que la sobrecarga de código que añade el ORM para manejar los datos no compensa frente al acceso directo a los mismos y el empleo de consultas SQL optimizadas para acelerar las operaciones. 
+
+Introducción:
+	
+	La principal atracción de una aplicación será los datos que esta maneje y es que sin datos sencillamente es una aplicación vaciá. Para almacenar los datos tenemos que conectarnos a una base de datos, lo cuál es un trabajo laborioso cuando tenemos que transformar nuestras tablas objetos de nuestra aplicación y viceversa. Para facilitarnos el trabajo han llegado los ORMs, utilizando un ORM el mapeo será automático y por si fuera poco, será independiente de la bases de datos que estemos utilizando pudiendo así cambiar de motor según nuestras necesidades, pero ojo, el uso del ORM no siempre es conveniente ya que su uso puede traer serias repercusiones en cuanto a la velocidad de nuestra aplicación, es por ello que hay que conocer bien como funciona y cuándo aplicarlos.  
+
+ORM:
+	
+	Un ORM es una herramienta nos permite mapear, o lo que es lo mismo, convertir los objetos de nuestra aplicación a un formato adecuado para ser previamente almacenados independientemente de la base de datos que utilicemos. Este se debe a que el ORM es el encargado de hacer el mapeo y no tendremos que realizar acciones CRUD (Create, Read, Update, Delete) con un lenguaje SQL porque será nuestro ORM el que se encargue completamente de automatizar este proceso sin importar si la bases de datos es MySQL, Oracle, SQLite u otra base de datos.
+
+¿Por que su uso?
+
+	Debido a que el ORM se encarga completamente del mapeo, su uso se ha extendido mucho, simplificando la tarea del programador y logrando que el accedo a los datos sea automático. Por otra parte ayuda mucho agilizar el desarrollo de una aplicación así como el uso para los programadores no tan expertos en lenguaje SQL.
+
+¿Cuándo Usarlos?
+
+	EL uso del ORM es especialmente recomendado en aplicaciones donde el rendimiento de la misma no es crítica, ten en cuenta que el uso del ORM tiene un golpe duro en el rendimiento ya que el ORM trabaja con objetos en vez de SQL, No obstante, el uso del ORM acelera considerablemente el desarrollo y si requieres migrar de bases de datos haber usado un ORM podrá facilitarte tu trabajo.
+
+Conclusión:
+
+	El uso del ORM ha crecido mucho en los últimos años, prácticamente cualquier lenguaje de programación cuenta con su ORM, su uso es conveniente en aplicaciones pequeñas con un desarrollo ágil, pero no tanto para aplicaciones complejas. Por otro lado, un ORM puede ayudarte a realizar una aplicación con una base de datos simplemente sabiendo el lenguaje de programación que utiliza el ORM, pero ojo, el uso del ORM es mucho más eficaz sabiendo como trabaja una base de datos, así que sería perfecto probarlo una vez después conozcas las características de una base de datos y el uso de un lenguaje SQL. 

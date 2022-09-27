@@ -1,0 +1,130 @@
+DBMS
+[
+	1----------------------------
+	PowerData - Redacción PowerData - ¿Qué Es El Sistema Manejador De Bases De Datos? - www.blog.powerdata.es
+
+	2----------------------------
+	TechTarget - Sistema De Gestión De Bases De Datos o DBMS - www.searchdatacenter.techtarget.com
+
+	3----------------------------
+	Tech4Business - @Redacción España - ¿Qué Es Un DataBase Management System? - www.agenciab12.com
+
+	4----------------------------
+	Sistemas - Definición De DBMS - www.sistemas.com
+
+	5----------------------------
+
+]
+
+
+((((((((((	((((((((((((((((())	)))))))))))))))	))))))))))
+&&&&&&&&&&	&&&&&&&&&&&&&&&&&&&	&&&&&&&&&&&&&&&	&&&&&&&&&&
+((((((((((	((((((((((((((((())	)))))))))))))))	))))))))))
+
+DBMS:
+
+	PowerData:
+		hola
+			Un sistema manejador de bases de datos o DataBase Management System es una colección de software muy espefífico, orientado al manejo de base de datos, cuya función es servir de interfaz entre la base de datos, el usuario y las distintas aplicaciones utilizadas. 
+
+			Como su propio nombre inidic, el ob jetivo de los sitemas manejadores de bases de datos es precisamente el de manejar un conjunto de datos para convertirlos en información relevante para la organización, ya sea a nivel operativo o estratégico. 
+
+			Lo hace mediante una seri de rutinas de software que permiten su uso de una manera msegura, sencilla y ordenada. Se trata, en suma, de un conjunto de programas que realizan tareas de forma interrelacionada para facilitar la construcción y manipulación de bases de datos, adoptando la forma de interfaz entre éstas, las aplicaciones y los mismo usuarios.
+
+			Su uso permite realizar un mejor control a los administradores de sistemas y por otro lado, también obetener mejores resultados a la hora de realizar consultas que ayuden a la gestión empresarial mediante la generación de la tan perseguida ventaja competitiva. 
+
+		Caracteristicas y Funcionalidad:
+
+			Un DBMS es sinónimo de independencia, una redundancia mínima, consistencia de la información, abstración de la información sobre su almacenamiento físico, así como un acceso seguro y la adpción de las medidas necesarias para garantizar la integridad de los datos. 
+
+			Estas particularidades son algunos de los rasgos definitorios de un DBMS, cuyos procesos esenciales son la manipulación y construcción de las bases de datos, así como la definición de los mismo. Son caracteristicas que, asu vez, facilitan el cumpliemnto de una serie de funciones relacionadas con muchos de los aspectos apuntados, entre otros la definición de los datos, su fácil manipulación, una rápida gestión, poder representar relaciones complejoas entre datos y otros aspectos relacionados con la seguridad y validez de los datos. 
+
+		Los Lenguajes Más Utilizados De Un DBMS:
+
+			En lo que respecta a los lenguajes utilizados en un DBMS, cabe destacar el lenguaje de Manipulación de datos o Data Manipulation Languege DML, para la realización de consultas y manipulación de datos. Especialmente se utiliza el SQL (Structured Query Language), el DML más utilizado para gestionar datos relacionales, así como el Data Definition Language (DDL), utilizado para definir estructuras y funciones en la realización de consultas. 
+
+			El Data Control Language (DCL), por último, también es un lenguaje utilizado en un DBMS por el administrador, en esta ocación con el fin de controlar el acceso a los datos de la bse de datos. 
+
+	TechTarget:
+		hola
+			Un sistema de administración de bases de datos (DBMS) es un sosftware de sistema para crear y administrar bases de datos. El DBMS proporciona a los usuarios y programadores una forma de sistemática de crear, recuperar, actualizar y adminsitrar datos. Un DBMS también permite a los usaurios finales hacer uso del CRUD. 
+
+			El DBMS gestiona tres cosas importantes: los datos, el motor de la base de datos que permite acceder a los datos, bloquearlos y modificarlos, y esquema de la base de datos, que fenide la estructura lógica de la base de datos. Estos tres elemntos fundamentales ayudan a proporcionar concurrencia, seguridad, integridad de datos y procedimientos de adminstración uniformes. Las tareas típicas de administración de la base de datos complatibles con el DBMS inclyuen la gestion de cambios, el monitoreo y/o ajuste del rendimeinto, así como las copias de seguridad y la recupreción. Muchos sistemas de gestión de bases de datos también son responsables de las reversiones, reinicios y recuperación automatizados, así como del registro y la auditoría de la actividad. 
+
+		Ventajas:
+
+			EL uso de un DBMS para almacenar y administrar datos conlleva ventajas de usaro un DBMS es que permite que lo usuarios finales y programadores de aplicaciones ccedan y usen los miismo datos mientras adminsitran la integridad de los datos. 
+
+				Extracción de datos e independencia
+				seguridad de los datos
+				un mecanismo de bloque para el acceso concurrente
+				Capacidad de recuperarse rapidamente de acidentes y errores, incluyendo la capacidad de reinicio y la capacidad de recupreción
+
+
+	Tech4Business:
+		hola
+			En la actualidad la recopilación de datos es fundamental para que una empresa o institución realice el seguimiento de su actividad y pueda mejorar sus procesos. Por ello, se vuele imporescindible contar con una BBDD bien consolidada, asi como un sistem de gestión de la misma.
+
+			Los Database Management Systems, son programas denominaods sistemas gestores de bases de dastos, que permiten almacenar y posteriormente, acceder a los datos de forma rápida y estructurada. 
+
+			En muchas ocasiones, únicamente se designan con el término base de datos. A grandes ragos, se trata de un software orientado al manejo de base de datos, cuya función es servir de interfaz entre la BBDD, el usuario y otras aplicaciones. 
+
+			El objetivo mayoritario de los DBMS es aplicar una seri de técnicas a un conjunto de datos paa convertirlos en información con valor operativo y/o estratégico para la organización, 
+
+		Caracteristicas y Funciones:
+
+			Garantizar la seguridad de los datos.
+			 Formentar la integridad de los datos. Con esto nos referimos a daptar las medidas necesarias para garantizar la validez de los datos almacenados. Es decir, proteger los datos ante fallos de hardware o cualquier otra circunstancia que puediese afectar a los datos. Por su parte, los DBMS cuentan con mecaanismos especificos paa garantizar la recuperación de la BBDD de forma automática. 
+
+			 Capacidad de respalod de los datos. Los DBMS deben realizar copias de respaldo de los datos almacenados y ser capacer de restaurar a partir de estas copias los datos que se hauan podido perder. 
+
+			 Control de los accesos. En la mayoría de BBDD acceden multiples usuarios de forma simultánea. Por eso, un DBMS debe controlar este acceso para evitar futuros problemas. 
+
+			 Reducir el tiempo de respuesta. El timepo que el DBMS proporciona la información solicitada y en almacenr los cambio s realizadosdebe ser el mínimo posible.
+
+		Lenguajes utilizados en DBMS:
+
+			Los lenguajes utilizados en DBMS permiten al administrador de la BBDD especificar los datos que componen la BBDD, sus estrucutura, las realaciones que existen entre ellos, las reglas de integridad, los controles de acceso, las características de tipo físico y las vistas externas de los usuarios. Existen varios modelos:
+
+				Lenguaje de Definición de Datos (LDD o DDL): Se utiliza para especificar el esquema de la BBDD, las vistas de los usuarios y las estructurass de almacenamiento. Es el que define el esquema conceptual y el esquema interno. 
+
+				SDL (Store Definition Language): Lenguaj de definición de almacenamiento. Es utilizado por el DBMS para especificar el esquema interno que corresponder a la BBDD.
+
+				VLD (View Definition Language): El DBMS lo utiliza para especificar las vistas del usuario y sus correspondencia con el esquema conceptual. 
+
+				Lenguaje de Manipulación De Datos (LMD o DML): Se utiliza para pleer y actualizar los datos de la BBDD. Es el utilizado por lo usuarios para realizar consultas, inserciones, eliminacion y modificaciones. Por ejemplo el SQL (Structures QUery Language).
+
+Introducción:
+
+	La recopilación de datos en fundamental para cualquier empresa y equipo de desarrolladores, los datos son quizás el motor de vida para cualquier aplicación, es por ello que es importante contar con una bases de datos robusta y que mejor que contar con un Sistema De Gestión De Bases De Datos o como será llamado durante este articulo, DBMS.
+
+DataBase Management System:
+
+	Una DataBase Managent System o DBMS es un software para crear y administrar bases de datos. Y a grandes rasgos el DBMS gestiona 3 cosas importantes: los datos, el motor de la base de datos y el esquema de la base de datos. otorgando a la base de datos concurrencia, seguridad e integridad de datos. El DBMS aplica una serie de técnicas a un conjunto de datos para convertirlo en información con valor operativo y siendo posible acceder a los datos de forma rápida y estructurada. Dicho de otra forma, un DBMS es un software cuya función es servir de interfaz entre la BBDD, el usuario y las aplicaciones. 
+
+Ventajas De Su Uso:
+
+	El uso de un DBMS para almacenar y administrar datos permite a los usuarios finales y programadores de aplicaciones acceder y usar los mismo datos mientras administran la integridad de los mismo. Entre las ventajas podemos mencionar que con el uso de un DBMS podemos:
+
+		1. Garantizar la seguridad de los datos. 
+		2. Fomentar la integridad de los datos, con esto nos referimos a adaptar las medidas necesarias para garantizar la validez de los datos almacenados. 
+		3. La capacidad de respaldo es mayor ya que los DBMS son capaces de restaurar a partir de estas copias los datos que se hayan podido perder. 
+		4. Un DBMS puede controlar el acceso para evitar que múltiples usuarios accedan de forma simultánea.
+		5. El uso de un DBMS reduce el tiempo de respuesta en comparación de otras tecnologías como los ORMs
+
+Lenguajes De Un DBMS:
+
+	Los lenguajes utilizados en DBMS permiten al administrador de la bases de datos especificar los datos que la componen, su estructura, las posibles relaciones entre ellos, las reglas de integridad, los controles de acceso, las características de tipo físico y las vistas externas de los usuarios.
+
+		DDL:
+			Los DDL o Lenguaje de Definición de Datos, se utiliza para especificar el esquema de la base de datos, las vistas de los usuario y las estructuras de almacenamiento. 
+		SDL:
+			SDL o Lenguaje de Definición de Almacenamiento, es utilizado por el DBMS para especificar el esquema interno que corresponder a la base de datos. 
+		VDL:
+			VDL o View Definition Language por su nombre en inglés, lo utiliza el DBMS para especificar las vistas del usuario y sus correspondencia con el esquema conceptual. 
+		DML:
+			DML o Lenguaje de Manipulación de Datos, se utiliza para leer y actualizar los datos de la bases de datos. Es utilizados por los usuarios para realizar consultas, inserciones, eliminación y modificaciones. Un ejemplo es el lenguaje SQL (Structures Query Language).
+
+Conclusión:
+
+	Saber administrar bien una base de datos es fundamental para una empresa y una aplicación, el software para crear y administrar bases de datos es conocido como DataBase Managent System o DBMS, con su uso conseguiremos seguridad e integridad de los datos. 

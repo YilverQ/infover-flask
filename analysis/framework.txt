@@ -1,0 +1,92 @@
+Framework
+[
+	1----------------------------
+	Arquitectura Java
+	Cecilio Álvares Cuales
+	¿Qué Es Rest?
+	www.arquitecturajava.com
+
+	2----------------------------
+	Red Hat
+	¿Qué Es una API De Rest?
+	www.redhat.com
+
+
+	3----------------------------
+	rockcontent
+	Gabirela Muente
+	Guía completa del Framework: Qué es, cúales tipos existen y por qué es importante en internet
+	www.rockcontent.com
+	
+
+	4----------------------------
+	The Dojo Blog
+	Hector Patricio
+	Entendiendo Rest, El estilo de Arquitectura
+	www.blog.thedojo.mx
+
+
+	5----------------------------
+	Imaginary Cloud
+	Pedro MArtinho
+	Flask Python: Creación De API Rest y Documentación Swagger 
+	www.imaginarycloud.com
+]
+
+---------------------------
+---------------------------
+---------------------------
+
+Introducción
+
+Rockcontent:
+	
+	Un Framework es una estructura previa que se puede aprovechar para desarrollar un proyecto. 
+
+	El Frameork es una especie de plantilla, un esquema conceptual, que simplifica la elaboración de una tarea, ya que solo es necesario complementarlo de acuerdo a lo que se quiere realizar. 
+
+Arimetics:
+	
+	Un Framework es un marco o esquema de trabajo generalmente utilizado por programadores para realizar el desarrollo de software. Utilizar un framework permite agilizar los procesos de desarrollo ya que evita tener que escribir código de forma repetitiva, asegura unas buenas prácticas y la consistencia del código.
+
+	Un Framework es por tanto un conjunto de herramientas y módulos que pueden ser reutilizados para varios proyectos. 
+
+	Ventajas:
+		El programador ahorra timepo ya que dispone ya del esqueleto sobre el que desarrollar una aplicación.
+
+		Facilita los desarrrollos colaborativos, al dejar definidos unos estándares de programación
+
+		Al estar ampliamente extendido, es más fácil encontrar herramientas, módulos e información para utilizarlo. 
+
+		proporciona mayor seguridad, al tener gran partede de las potenciales vulnerabilidades resueltas. 
+
+
+NeoAttack:
+	
+	Un Framework, que se podría traducir como marco de trabajo, es el esquema o estructura que se establece y que se aprovecha para desarrollar y organizar un software determinado. 
+
+	Es util para evitar el tener que repetir el códiho para realizar funciones habituales en un rango de herramientas como puede ser el acceder a bases de datos o realizar llamadas a internet. 
+
+	Un Framework sirve para poder escribir código o desarrollar una aplicación de manera más sencilla. Es algo que permite una mejor organización y control de todo el código elaborado, así como una posible reutilización en el futuro. 
+
+
+
+
+Introducción:
+
+	Para realizar un proyecto de software necesitamos un lenguaje de programación y dependiendo de la complejidad del proyecto podemos tardar en completar su desarrollo. Los Frameworks permiten entregar un proyecto en menos tiempo y con un código más limpio. Hoy en día es posible utilizar infinidades de recursos para facilitar las tareas, gracias a esto la automatización cada día es mayor y accesible, contar con modelos que faciliten el desarrollo de un proyecto hace que su realización sea mucho más rápida y eficaz, es aquí donde los programadores pueden  utilizar Frameworks para completar un proyecto con módulos prefabricados que agilizan el desarrollo. 
+
+
+Framework:
+
+	El Framework es una especie de plantilla donde ya vienen incluidas las funcionalidades que podrían ser siempre repetibles al desarrollar un proyecto, de esta manera se simplifica la elaboración de una tarea siendo mucho más rápido su finalización. Los programadores suelen incluir Frameworks para evitar reescribir bloques de códigos y a diferencias de las librerías, el Frameworks define unos estándares por los cual el desarrollador deberá guiarse asegurando así buenas practicas y consistencia del código.    
+
+
+¿Cuándo Usar Un Framework?
+
+	El framework se puede utilizar cuando sea necesario, tened en cuenta que al implementar un framework como herramienta de trabajo podrás agilizar tu desarrollo, no obstante los frameworks se basan en su mayoría en lenguajes de programación donde extienden módulos especializados para realizar una tarea objetiva, así que no sería muy recomendable utilizarlos si no dominas el lenguaje de programación. Otra recomendación sería aprender el Framework antes de utilizarlo en un proyecto real, y ya se que suena extraño, pero no es anormal encontrar con desarrolladores que por tratar de agilizar un proyecto implementan Frameworks sin siquiera conocer como trabaja el Frameworks en si (Me incluyo), aún así los Frameworks no son enemigos, por el contrario, son unos de los mejores aliados que tendrás como desarrollador de Software. 
+
+
+Conclusión:
+
+	Los Frameworks son un aliado más para el desarrollo de software, con aprender uno obtendremos buenas practicas y sobre todo y lo más llamativo será crear aplicaciones con mucha más facilidad y rapidez. El Framework funciona como una plantilla, pero no será un marco de trabajo riguroso al cuál no puedas modificar, por el contrario el Framework lo trabajas de acuerdo a tus necesidades donde siempre te facilitará las tareas al contar con modelos prefabricados por una comunidad de desarrolladores.  
