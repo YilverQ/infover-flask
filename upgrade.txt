@@ -15,3 +15,12 @@ Version: 0.3.1
 Se completo la documentación del código, 
 la mayoría por parte de los archivos .py
 
+
+#__ $$ __#
+Fecha: 26 de Septiembre del 2022
+Version: 0.4.0
+¿¿__Información__??
+Agregar contenido nuevo. 
+Rediseñar el estilo de la página. 
+Cambiar iconos.
+Cambiar imagenes. 
