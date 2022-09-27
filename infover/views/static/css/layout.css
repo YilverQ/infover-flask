@@ -1,0 +1,70 @@
+/*Estilos para todos los elementos*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+/*Fin de los estilos que aplican para todos los elementos*/
+
+/*Custom Propities*/
+:root{
+  /*Colores de Google*/
+  --danger:#d93e4c;
+  --success:#28a745;
+  --light:#f2f2f2;
+
+  --text:#2d3436;
+  --title: #131313;
+  --background: #e9e9e9;
+  
+  --primary:#57a4ff;
+  --secondary: #2d3436;
+  --tertiary:#dfe6e9;
+  --gray: #dfe6e9;
+}
+/*FIN de las Customs Propities*/
+
+
+/*Estilos para los elementos principales*/
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background: var(--background);
+  min-height: 100vh;
+}
+h1, h2, h3, h4, th{
+  font-family: 'Roboto Slab', sans-serif;
+  font-display: fallback;
+  color: var(--title);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+h1{
+  font-size: 30px;
+}
+p, li, a, input, select, button, label,td,i{
+  font-family: 'Poppins', sans-serif;
+  font-display: fallback;
+  color:var(--text);
+  font-size: 16px;
+  letter-spacing: .6px;
+}
+/*Fin de los estilos principales*/
+
+
+/*Media queries - Globales*/
+@media (max-width: 500px){
+  h1{
+    font-size: 18px;
+  }
+  h1, h2, h3, h4, th{
+    font-size: 18px;
+  }
+  p, li, a, input, select, button, label,td{
+    font-size: 14px;
+  }
+}

@@ -4,17 +4,19 @@
 {% from "_macro.html" import contain %}
 {% from "_macro.html" import introduction %}
 {% from "_macro.html" import finale %}
-{% from "_body.html" import body_index %}
+{% from "_macro.html" import references %}
+{% from "_body.html" import body_theme %}
 
 	{% block nav %}
-	{{ nav(Author) }}
+	{{ nav(Theme) }}
 	{% endblock %}
 
 	{% block main %}
-	{{ main(Author) }}
+	{{ main(Theme) }}
 	<div class="article">
-	{{ introduction(Author) }}
-	{{ body_index(Author, Tag, Theme) }}
-	{{ finale(Author) }}	
+	{{ introduction(Theme) }}
+	{{ body_theme(Theme, type) }}
+	{{ finale(Theme) }}	
+	{{ references(Theme) }}
 	</div>
 	{% endblock %}	

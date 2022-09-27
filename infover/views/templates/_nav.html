@@ -1,0 +1,45 @@
+{% macro nav(element) %}
+   <div class="nav__button_menu hidden">
+      <i class="fi fi-br-menu-burger" id="nav_icon_burger"></i>
+      <i class="fi fi-br-cross" id="nav_icon_xmark"></i>
+   </div>
+   <a href="/"><h2 class="nav__title"><span class="nav__title--bold">Info</span>ver</h2></a>
+   <div class="nav_header">
+      <img src="../static/img/{{ element['logo_image'] }}" alt="{{ element['name'] }}" class="nav_header__img">
+      <h3 class="nav_header__title">{{ element['name'] }}</h3>
+   </div>
+   <div class="nav__body">
+      <div class="nav_block">
+         <h4 class="nav_block__title">Índice</h4>
+         <ol class="nav_block__caja nav_block__caja--index">
+            {% for i in element['index'] %}
+            <li class="nav_block__item">{{ i }}</li>
+            {% endfor %}
+         </ol>
+      </div>
+      <div class="nav_block">
+         <h4 class="nav_block__title">Autor</h4>
+         <ul class="nav_block__caja">
+            <li class="nav_block__item"><i class="fi fi-sr-user"></i> Yilver Quevedo</li>
+            <li class="nav_block__item"><i class="fi fi-ss-flag"></i> Venezolano</li>
+            <li class="nav_block__item"><i class="fi fi-sr-school"></i> Universidad Bolivariana de Venezuela</li>
+         </ul>
+      </div>
+      <div class="nav_block">
+         <h4 class="nav_block__title">Contacto</h4>
+         <ul class="nav_block__caja nav_block__caja--icons">
+            <li class="nav_block__item nav_block__item--icon"><a target="_blank" href="https://github.com/yilverq"><i class="fi fi-brands-github"></i></a></li>
+            <li class="nav_block__item nav_block__item--icon"><a target="_blank" href="mailto:yilver0906@gmail.com"><i class="fi fi-sr-envelope"></i></a></li>
+            <li class="nav_block__item nav_block__item--icon"><a href="https://t.me/YilverQ"><i class="fi fi-brands-telegram"></i></a></li>
+            <li class="nav_block__item nav_block__item--icon"><a target="_blank" href="https://www.linkedin.com/in/yilver-quevedo-molinares-306a03160/"><i class="fi fi-brands-linkedin"></i></a></li>
+         </ul>
+      </div>
+      <div class="nav_block">
+         <h4 class="nav_block__title">Licencia</h4>
+         <ul class="nav_block__caja">
+            <li><i class="fi fi-brands-creative-commons"></i> Creative Commons</li>
+         </ul>
+      </div>
+      <p class="nav__footer">Infover 2022 - v.o.4</p>
+   </div>
+{% endmacro %}

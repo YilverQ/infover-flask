@@ -1,4 +1,4 @@
-from ..models.tag import Tag
+from ..database import tag_db
 
 
 class Tag_Controller:
@@ -7,8 +7,8 @@ class Tag_Controller:
 
 
 	def read(self):
-		return ""
+		return tag_db.get_tags()
 
 
 	def read_only(self, tag):
-		return ""
+		return tag_db.get_tag_named(tag)

@@ -15,3 +15,12 @@ def get_theme_named(name):
 	theme = convert_data_to_theme_object(element)
 	#return theme.as_dict()
 	return theme
+
+
+def read_themes_with_father(name):
+	table = get_themes_by_tag(name)
+	themes = []
+	for element in table:
+		theme = convert_data_to_theme_object(element)
+		themes.append(theme)
+	return themes

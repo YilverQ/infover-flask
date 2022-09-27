@@ -37,3 +37,8 @@ def get_themes_by_tag(name):
 			data.append(i)
 
 	return data
+
+
+def get_author_data():
+	all_data = get_data()
+	return all_data["Author"]

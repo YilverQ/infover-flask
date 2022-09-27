@@ -1,0 +1,71 @@
+{% macro body_index(element, Tag, Theme) %}
+		{% for key, value in element['body'].items() %}
+		<div class="section">
+			<h3 class="section__title">{{ key }}</h3>
+			<p class="section__information">
+         		{{ value }}
+         	</p>
+			{% if key == "Temas principales" %}
+			<div class="tags">
+				{% for i in Tag %}
+				<a href="{{ url_for('view.tag', tag = i['name'].replace(' ', '_')) }}">
+				<div class="tags__tag">
+					<img class="tags__img" src="../static/img/{{ i['logo_image'] }}" alt="{{ i['title'] }}">
+					<h3 class="tag__title">{{ i['name'] }}</h3>
+				</div>
+				</a>
+				{% endfor %}
+			</div>
+			{% endif %}
+
+			{% if key == "Temas específicos" %}
+			<div class="tags">
+				{% for i in Theme %}
+				<a href="{{ url_for('view.theme',tag = i['father'].replace(' ', '_'), theme = i['name'].replace(' ', '_')) }}">
+				<div class="tags__tag">
+					<img class="tags__img" src="../static/img/{{ i['logo_image'] }}" alt="{{ i['title'] }}">
+					<h3 class="tag__title">{{ i['name'] }}</h3>
+				</div>
+				</a>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+		{% endfor %}
+{% endmacro %}
+
+
+{% macro body_tag(element) %}
+		{% for key, value in element['body'].items() %}
+		<div class="section">
+			<h3 class="section__title">{{ key }}</h3>
+			<p class="section__information">
+         		{{ value }}
+         	</p>
+		</div>
+		{% endfor %}
+{% endmacro %}
+
+
+{% macro body_theme(element, type) %}
+		{% for key, value in element['body'].items() %}
+		<div class="section">
+			<h3 class="section__title">{{ key }}</h3>
+			{% if type(value) == type({}) %}
+				{% for key_b, value_b in value.items() %}
+				<div class="section__information">
+					<h4 class="section__subTitle">{{ key_b }}</h4>
+					<p class="section__information">
+						{{ value[key_b] }}
+					</p>					
+				</div>
+				{% endfor %}
+			
+			{% else %}
+         <p class="section__information">
+         	{{ value }}
+         </p>
+			{% endif %}
+		</div>
+		{% endfor %}
+{% endmacro %}

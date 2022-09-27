@@ -1,0 +1,40 @@
+{% macro main(element) %}
+   <div class="header">
+		<div class="header__wallpaper">
+	      <img src="../static/img/{{ element['url_image'] }}" alt="{{ element['title'] }}" class="nav__img">
+		</div>
+		<div class="header__sabana"></div>
+		<h3 class="header__title">{{ element['title'] }}</h3>
+   </div>
+{% endmacro %}
+
+
+{% macro introduction(element) %}
+		<div class="section">
+			<h3 class="section__title">Introducción</h3>
+         <p class="section__information">
+         	{{ element['introduction'] }}
+         </p>
+		</div>
+{% endmacro %}
+
+{% macro finale(element) %}
+	<div class="section">
+		<h3 class="section__title">Conclusión</h3>
+      <p class="section__information">
+      	{{ element['finale'] }}
+      </p>
+	</div>
+{% endmacro %}
+
+
+{% macro references(element) %}
+	<div class="section">
+		<h3 class="section__title">Referencias</h3>
+      <ol class="section__cajaReferences">
+      	{% for i in element['reference'] %}
+      	<li class="section__referenceItem">{{ i }}</li>
+      	{% endfor %}
+      </ol>
+	</div>
+{% endmacro %}

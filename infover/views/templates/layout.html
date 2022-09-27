@@ -4,122 +4,43 @@
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta name="author" content="Yilver Quevedo">
-	<meta name="description" content="Pagina de Prueba con FLask">
+	<meta name="description" content="{{ description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 	<!-- Title -->
-	<title>{{ datos["name"] }} - Infover</title>
+	<title>{{ title }} - Infover</title>
 	
 	<!-- Estilos -->
     <link rel="shortcut icon" type="image/x-icon"  href="{{ url_for('static', filename='img/favicon.png') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/normalize.css') }}">
-	<link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/estilos.css') }} ">
-	
+	<link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/main.css') }} ">
+	{% block styles %}
+	{% endblock %}
+
+	<!-- Fuentes de Google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+	<!-- CDN de Iconos -->
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
 </head>
-<body>
-	<div class="contenedor">
-		<input class="boton_menu none" type="checkbox" id="close">
-		<label class="label_inicio none yes_visible" for="close">
-			<span id="open" class="boton_open none yes_visible">=</span>
-			<a href="/">
-				<p class="page-name"><span>Info</span>ver</p>
-			</a>
-		</label>
-		
-	<aside class="no_visible">
-		<label class="boton_menu" for="close">
-			<span id="close" class="boton_close none yes_visible">X</span>
-		</label>
-		<section class="primera">
-			<nav>
-				<div class="navbar">
-					<a href="/">
-						<p class="page-name"><span>Info</span>ver</p>
-					</a>
-				</div>
-			</nav>
-			<div class="imagen_autor"> 
-				<img src="../static/img/{{ datos['logo_image'] }}" alt="Logo de {{ datos['name'] }} desde Infover">
-			</div>
-			<div class="title-navbar">
-				<h3>{{ datos["name"] }}</h3>
-			</div>
-		</section>
-		<section class="segunda">
-			<div class="title-navbar">
-				<p>Indice</p>
-			</div>
-			<ul>
-				{% for i in range(15) %}
-					{% if datos["indice"][i] != Null %}
-					<li class="li_lista">{{ i+1 }}. {{ datos["indice"][i] }}</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-		</section>
-		<section class="tercero">
-			<div class="title-navbar">
-				<p>Autor</p>
-			</div>
-			<ul>
-				<li class="li_lista">Name: Yilver Quevedo</li>
-				<li class="li_lista">Mail: Yilver0906@gmail.com</li>
-				<li class="li_lista">University: Universidad Bolivariana de Venezuela</li>
-			</ul>
-		</section>
-		<section class="cuarto">
-			<div class="title-navbar">
-				<p>Licencias</p>
-			</div>
-			<ul>
-				<li class="li_lista">GNU/Linux</li>
-				<li class="li_lista">Free Software Fundation</li>
-				<li class="li_lista">Creative Commons</li>
-			</ul>
-			<li class="centerLI">Infover 2021 - V0.3</li>
-		</section>
-	</aside>
+<body class="layout">
+	<!-- Nav -->
+	<nav class="nav">
+	{% block nav %}
+	{% endblock %}
+	</nav>
 
-	<article class="main">	
-		<section class="imagen">
-			<div class="wallpaper">
-				<img src="../static/img/{{ datos['url_image'] }}" alt="Wallpaper de {{ datos['name'] }} desde Infover">
-				<div class="sabana"></div>
-				<div class="titleCentral">
-					<h1>{{ datos["title"] }}</h1>
-				</div>
-			</div>
-		</section>
-
-		<div class="contenedor_info">	
-		<section class="introduccion">
-			<div class="titleH3">
-				<h3>Introducción</h3>
-			</div>
-			<div class="introParrafo">
-				<p>
-					{{ datos["introduction"] }}
-				</p>
-			</div>
-		</section>
-		{% block content %}
-		{% endblock %}
-		<section class="conclusión">
-			<div class="titleH3">
-				<h3>Conclusión</h3>
-			</div>
-			<div class="introParrafo">
-				<p>	
-					{{ datos["conclusion"] }}
-				</p>
-			</div>
-		</section>
-		{% block after_conclusion %}
-		{% endblock %}
-		</div>
-	</article>
-
+	<!-- Contenido Principal -->
+	<div class="main">
+		{% block main %}
+		{% endblock %}	
 	</div>
 </body>
 </html>
