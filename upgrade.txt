@@ -24,3 +24,4 @@ Agregar contenido nuevo.
 Rediseñar el estilo de la página. 
 Cambiar iconos.
 Cambiar imagenes. 
+Una mejor estructura para los proyectos Flask.
