@@ -1,0 +1,12 @@
+"""
+	Esta es una forma alternativa de iniciar la aplicación.
+	Para ello usar:
+		python -m app
+
+	//Estando en la carpeta de .env
+"""
+
+from . import app
+
+if __name__ == '__main__':
+	app.run() #No añadir parámetros, modificar directamente en Config

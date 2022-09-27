@@ -1,0 +1,401 @@
+/*Comentarios
+	box-shadow: 0px 1px 10px;
+    COLOR DE LA PAGINA: #3498db;
+    color:#2d3436;
+    Blanco: #dfe6e9;
+    #e9e9e9 
+	#57a4ff
+    color_background
+*/
+
+/*Para Todo*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+li{list-style: none;}
+/*Fin Para Todo*/
+
+
+/*Fuentes*/
+@font-face{
+    font-family: fuente1;
+    src:url(../fonts/Comfortaa-Regular.ttf); 
+}
+
+@font-face{
+    font-family: fuente2;
+    src:url(../fonts/Comfortaa-Regular.ttf); 
+}
+
+@font-face{
+    font-family: fuente3;
+    src:url(../fonts/Arvo-Regular.ttf); 
+}
+/*Fin de la Fuentes*/
+
+
+
+/*Estructura*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	background: #e9e9e9;	
+}
+
+.contenedor{
+	display: flex;
+	/*justify-content: space-between;*/
+	justify-content: center;
+}
+
+.navbar p, h1, h2, h3, .title-navbar p, h4{
+	font-family: fuente3;
+	color: black;
+}
+
+
+p, li{
+	font-family: fuente2;
+    color:#2d3436;
+    line-height: 20px;
+    font-display: block;
+}
+p{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+/*Fin de la Estructura*/
+
+
+
+/*Aside*/
+.boton_close{
+	background: #dfe6e9;
+    color:#3498db;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: fuente2;
+    font-weight: 700;
+    padding: 10px 0px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.boton_open{
+	background: #3498db;
+    color:#dfe6e9;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-family: fuente2;
+    font-weight: 700;
+    padding: 10px;
+	font-size: 25px;
+	cursor: pointer;
+	z-index: 999;
+	border-radius: 0px 0px 5px 0px;
+}
+
+.label_inicio p{
+	position: absolute;
+	z-index: 999;
+	font-size: 30px;
+	text-align: center;
+	color:  #dfe6e9;
+	font-family: fuente3;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.label_inicio p span{
+    color:#3498db;
+}
+
+.none{
+	display: none;
+}
+
+aside{
+	flex-shrink: 0;
+	width: 20%;
+	height: 100wv;
+	background-image: url("../img/fondo2.png");
+	box-shadow: 1px 1px 5px rgba(10, 10, 10, .4);
+}
+
+.title-navbar p{
+	font-size: 20px;
+	text-align: center;
+	color: #dfe6e9;
+}
+
+.segunda ul, .tercero ul, .cuarto ul{
+	padding: 10px;
+	/*Error que hace que se rompa las listas dentro de los ul
+	El error se nota cuando la pantalla esta en modo telefono
+	hay que resolverlo*/
+}
+
+.segunda ul li, .tercero ul li, .cuarto ul li{
+	color: #2d343f;
+}
+
+.navbar{
+	padding: 15px 0px 0px 0px;
+}
+
+.navbar p{
+	font-size: 30px;
+	text-align: center;
+	color:  #dfe6e9;
+}
+
+.navbar span{
+	color: #57a4ff;
+}
+
+span.white{
+	color: #004fac;
+}
+
+.imagen_autor{
+	height: 100px;
+	width: 60%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.imagen_autor img{
+	height: 100px;
+	display: block;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 10%;
+	margin: auto;
+}
+
+.title-navbar h3{
+	margin: 10px 0px;
+	padding: 5px 0px;
+	text-align: center;
+	color: #dfe6e9;
+}
+
+.segunda{
+	margin-top: 60px;
+}
+
+.tercero, .cuarto{
+	margin-top: 35px;
+}
+
+.centerLI{
+	padding: 15px 0px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.li_lista{
+	padding: 1px;
+	margin-top: 4px;
+}
+/*Final de Aside*/
+
+
+
+/*Article*/
+article.main{
+	width: 80%;
+	padding-bottom: 20px;
+  	transition: .5s all;
+}
+
+/*Section Primera, aqui esta la imagen principal de la pagina*/
+.wallpaper{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(10, 10, 10, .5);
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.wallpaper img{
+	width: 100%;
+	height: 400px;
+    object-fit: cover;
+}
+
+.sabana{
+	width: 200%;
+    height: 420px;
+    position: relative;
+    margin-top: -410px;
+    background: rgb(0,0,0,0.4);
+}
+
+.titleCentral{
+	width: 100%;
+	position: relative;
+	margin-top: -250px;
+}
+
+.titleCentral h1{
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	background: rgba(250, 250, 250, .8);
+	text-align: center;
+}
+
+
+/*Contenedor_info // Aqu estará toda la información*/
+.contenedor_info{
+	width: 85%;
+	background: #dfe6e9;
+	margin: auto;
+	padding: 10px 15px;
+	box-shadow: 1px 1px 1px rgba(10, 10, 10, 0.5);
+	border-left: 2px solid #2d3436;
+	border-right: 2px solid #2d3436;
+	margin-top: 20px;
+}
+
+.titleH3{
+	margin-top: 10px;
+}
+
+
+.subtext .titleH3 h4{
+	border-bottom: 2px solid #3498db;
+	width: 300px;
+	font-family: fuente2;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.introParrafo{
+	text-align: justify;
+	padding: 10px 20px;
+}
+
+/*Tarjetas en index/tag1/tag2*/
+.tarjetas{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.target{
+	width: 240px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	background: #f2f2f2;
+	margin: 10px 0px;
+	border-radius: 4px;
+	border: 3px solid #2d343694;
+	border-left: 7px solid #2d343694; 
+	padding-left: 10px;
+	vertical-align: middle;
+	box-shadow: 1px 1px 5px rgba(10, 10, 10, .4);
+	transition: all .5s;
+}
+
+.target:hover{
+	border: 3px solid #57a4ff;
+	border-left: 7px solid #57a4ff;
+	transform: translateY(-5px);
+	transition: background .2s;
+	transition: all .5s;
+}
+
+.target_image{
+	width: 65px;
+	height: 60px;
+	margin: auto;
+}
+
+.target_image img{
+	width: 65px;
+	height: 100%;
+	object-fit: contain;
+}
+
+.info_target{
+	vertical-align: middle;
+	margin: auto;
+}
+
+.info_target h4{
+	text-align: center;
+}
+
+.referencias{
+	font-size: 14px;
+	text-align: justify;
+	font-family: fuente2;
+}
+.after_conclusion{
+	padding: 10px;
+	width: 90%;
+	margin: auto;
+}
+/*Final del Article*/
+
+
+
+/*Media Queries*/
+@media only screen and (max-width:995px){
+  .yes_visible{
+  	display: block;
+  }
+  .no_visible{
+  	width: 0%;
+  	transform: translateX(-500px);
+  	transition: .5s all;
+  }
+
+  article.main{
+	width: 100%;
+  }
+
+  input.boton_menu:checked ~ .no_visible{
+  	width: 30%;
+  	transform: translateX(0px);
+  	transition: .5s all;
+  }
+
+  input.boton_menu:checked ~ .label_inicio{
+  	transform: translateX(-200px);
+  	transition: .5s all;
+  }
+
+  .label_inicio{
+  	transition: .5s all;
+  }
+}  
+
+@media only screen and (max-width:625px){
+	.contenedor_info{
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width:520px){
+	input.boton_menu:checked ~ .no_visible{
+	  	width: 100%;
+	}
+	input.boton_menu:checked ~ article.main{
+		width: 0%;	
+  		transition: .5s all;
+	}
+}

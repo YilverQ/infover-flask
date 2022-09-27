@@ -1,0 +1,52 @@
+prueba.html
+
+<section class="prueba">
+			<ul>
+				<a href="/tag1/frameworks"><li>Frameworks</li></a>
+				<a href="/tag1/arquitectura_de_software"><li>Arquitectura de Software</li></a>
+				<a href="/tag1/bases_de_datos"><li>Bases de Datos</li></a>
+				<a href="/tag1/ingenieria_de_software"><li>Ingenieria de Software</li></a>
+			</ul>
+		</section>
+
+
+<section class="body">
+			<div class="titleH3">
+				<h3>Body</h3>
+			</div>
+			<div class="introParrafo">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</section>
+
+
+
+
+{% block content %}
+		<section class="content">
+			<div class="titleH3">
+				<a href="{{ url_for('tag1') }}"><h3>Herramientas</h3></a>
+			</div>
+			<div class="tarjetas">
+				{% for key, value in tarjetas.items() %}
+					<a href="{{ url_for('herramienta', herramienta = key.title()) }}">
+					<div class="target">
+						<div class="target_image">
+							<img src="../static/img/{{ value }}" alt="Logo de {{ key }} desde Infover">
+						</div>
+						<div class="info_target">
+							<h4>{{ key.title().replace("_", " ") }}</h4>
+						</div>
+					</div>
+					</a>
+				{% endfor %}
+			</div>
+		</section>
+{% endblock %}

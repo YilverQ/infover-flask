@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block content %}
+		<section class="content">
+			<div class="titleH3">
+				<h3>Temas Principales</h3>
+			</div>
+			<div class="introParrafo">
+				<p>
+					Este bloque contiene los temas principales en los que trabaja Infover, por ahora son 4 temas pero que irán creciendo conforme vaya pasando el tiempo. 
+				</p>
+			</div>
+			<div class="tarjetas">
+				{% for key, value in tarjetas.items() %}
+					<a href="{{ url_for('herramienta', herramienta = key.replace(' ', '_')) }}">
+					<div class="target">
+						<div class="target_image">
+							<img src="../static/img/{{ value }}" alt="Logo de {{ key }} desde Infover">
+						</div>
+						<div class="info_target">
+							<h4>{{ key.replace("_", " ") }}</h4>
+						</div>
+					</div>
+					</a>
+				{% endfor %}
+			</div>
+		</section>
+		<section class="content">
+			<div class="titleH3">
+				<h3>Temas Específicos</h3>
+			</div>
+			<div class="introParrafo">
+				<p>
+					Los temas específicos están distribuidos en los temas principales pero gracias a este bloque puedes acceder a ellos rápidamente. 
+				</p>
+			</div>
+			<div class="tarjetas">
+				{% for key, value in tarjetas_technology.items() %}
+					<a href="{{ url_for('tecnologia', tecnologia = key.replace(' ', '_')) }}">
+					<div class="target">
+						<div class="target_image">
+							<img src="../static/img/{{ value }}" alt="Logo de {{ key }} desde Infover">
+						</div>
+						<div class="info_target">
+							<h4>{{ key.replace("_", " ") }}</h4>
+						</div>
+					</div>
+					</a>
+				{% endfor %}
+			</div>
+		</section>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	{% for key, value in datos["body"].items() %}
+		<section class="introduccion">
+			<div class="titleH3">
+				<h3>{{ key }}</h3>
+			</div>
+			<div class="introParrafo subtext">
+				<p>
+					{% if value[0] != Null %}
+					{{ value }}
+					{% else %}
+						{% for llave, valor in value.items() %}
+							<div class="titleH3">
+								<h4>{{ llave }}</h4>
+							</div>
+							<div class="introParrafo">
+								<p>{{ valor }}</p>
+							</div>
+						{% endfor %}
+					{% endif %}
+				</p>
+			</div>
+		</section>
+	{% endfor %}
+{% endblock %}
+
+{% block after_conclusion %}
+		<section class="introduccion">
+			<div class="titleH3">
+				<h3>Referencias</h3>
+			</div>
+			<ul class="after_conclusion">
+				{% for i in range(15) %}
+					{% if datos["reference"][i] != Null %}
+						<li class="li_lista referencias">{{ i+1 }}. {{ datos["reference"][i] }}</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</section>
+{% endblock %}
