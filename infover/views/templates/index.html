@@ -5,6 +5,7 @@
 {% from "_macro.html" import introduction %}
 {% from "_macro.html" import finale %}
 {% from "_body.html" import body_index %}
+{% from "_ruta.html" import ruta %}
 
 	{% block nav %}
 	{{ nav(Author) }}
@@ -13,6 +14,7 @@
 	{% block main %}
 	{{ main(Author) }}
 	<div class="article">
+	{{ ruta() }}
 	{{ introduction(Author) }}
 	{{ body_index(Author, Tag, Theme) }}
 	{{ finale(Author) }}	

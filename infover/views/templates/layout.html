@@ -21,7 +21,7 @@
 	<!-- Fuentes de Google -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto+Slab&display=swap" rel="stylesheet"> 
 
 	<!-- CDN de Iconos -->
 	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
@@ -31,6 +31,11 @@
 	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
 </head>
 <body class="layout">
+	<div class="nav__button_menu hidden">
+      <a href="/"><h2 class="nav__title"><span class="nav__title--bold">Info</span>ver</h2></a>
+      <i class="fi fi-br-menu-burger" id="nav_icon_burger"></i>
+      <i class="fi fi-br-cross" id="nav_icon_xmark"></i>
+   </div>
 	<!-- Nav -->
 	<nav class="nav">
 	{% block nav %}
@@ -42,5 +47,7 @@
 		{% block main %}
 		{% endblock %}	
 	</div>
+
+	<script src="{{ url_for('static', filename='js/nav.js') }}"></script>
 </body>
 </html>

@@ -6,6 +6,8 @@
 {% from "_macro.html" import finale %}
 {% from "_macro.html" import references %}
 {% from "_body.html" import body_theme %}
+{% from "_ruta.html" import ruta %}
+
 
 	{% block nav %}
 	{{ nav(Theme) }}
@@ -14,6 +16,7 @@
 	{% block main %}
 	{{ main(Theme) }}
 	<div class="article">
+	{{ ruta(Tag, Theme) }}
 	{{ introduction(Theme) }}
 	{{ body_theme(Theme, type) }}
 	{{ finale(Theme) }}	

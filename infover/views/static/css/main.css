@@ -2,12 +2,16 @@
 @import url("./layout.css");
 @import url("./nav.css");
 
+.hidden{
+	display: none;
+}
 
 .layout{
 	min-width: 100vh;
 	display: grid;
 	grid-template-rows: repeat(1, 1fr);
 	grid-template-columns: 270px 1fr;
+	width: 100%;
 }
 
 .header{
@@ -33,6 +37,7 @@
 	color: var(--text);
 	border-radius: 2px;
 	box-shadow:  0px 1px 7px -2px rgba(46,52,64,1);
+	max-width: 90%;
 }
 .header__sabana{
 	grid-row: 1/2;
@@ -47,12 +52,22 @@
 	position: bottom;
 }
 
-
+.ruta{
+	display: flex;
+	column-gap: 10px;
+}
+.ruta__item{
+	color: var(--primary);
+	font-weight: 500;
+}
 
 /*Main*/
+.main{
+	width: 100%;
+}
 .article{
-	margin: 25px auto;
 	width: 85%;
+	margin: 25px auto;
 	background: var(--gray);
 	padding: 20px 16px;
 	border: 2px solid var(--text);
@@ -104,7 +119,18 @@
 	padding: 2px 15px;
 	border-radius: 4px;
 	box-shadow: 2px 2px 8px 0px rgba(209, 202, 202, 0.7);
+	transition: all .5s;
+	border: 2px solid transparent;
+	border-bottom: 6px solid var(--background);
 }
+.tags__tag:hover{
+	transform: translateY(-5px);
+	transition: all .5s;
+	border: 2px solid var(--primary);
+	border-bottom: 6px solid var(--primary);
+	box-shadow: 4px 4px 12px 0px rgba(209, 202, 202, 1);
+}
+
 .tags__img{
 	width: 60px;
 	height: 60px;
@@ -115,4 +141,41 @@
 .tag__title{
 	font-size: 16px;
 	text-align: center;
+}
+@media (max-width: 768px){
+	  .nav__button_menu{
+		display: grid;
+		grid-template-columns: repeat(2, max-content);
+		grid-template-rows: max-content;
+		justify-content: space-around;
+		align-items: center;
+		position: fixed;
+		width: 100%;
+		background-image: url("../img/fondo_nav.png");
+		box-shadow: .5px .5px 4px 0px rgba(10, 10, 10, .5);
+		z-index: 1;
+	}
+	#nav_icon_burger, #nav_icon_xmark{
+		grid-row: 1/2;
+		grid-column: 2/3;
+		padding: 5px 0;
+		font-size: 25px;
+		line-height: 1.25px;
+		text-align: center;
+		margin-top: 5px;
+		color: var(--light);
+	}
+	.layout{
+		min-width: 100%;
+		display: flex;
+		width: 100%;
+	}
+	.nav{
+		margin-top: 5px;
+		height: 100%;
+		position: fixed;
+		overflow-y: scroll;
+		margin-top: 5px;
+		animation: moverIzquierda .5s;
+	}
 }

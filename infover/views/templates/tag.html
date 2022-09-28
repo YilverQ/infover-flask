@@ -5,6 +5,8 @@
 {% from "_macro.html" import introduction %}
 {% from "_macro.html" import finale %}
 {% from "_body.html" import body_tag %}
+{% from "_ruta.html" import ruta %}
+
 
 	{% block nav %}
 	{{ nav(Tag) }}
@@ -13,8 +15,9 @@
 	{% block main %}
 	{{ main(Tag) }}
 	<div class="article">
+	{{ ruta(Tag) }}
 	{{ introduction(Tag) }}
-	{{ body_tag(Tag) }}
+	{{ body_tag(Tag, Theme) }}
 	{{ finale(Tag) }}	
 	</div>
 	{% endblock %}	

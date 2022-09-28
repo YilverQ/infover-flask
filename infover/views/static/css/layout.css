@@ -52,6 +52,7 @@ p, li, a, input, select, button, label,td,i{
   color:var(--text);
   font-size: 16px;
   letter-spacing: .6px;
+  font-weight: 300;
 }
 /*Fin de los estilos principales*/
 
@@ -68,3 +69,64 @@ p, li, a, input, select, button, label,td,i{
     font-size: 14px;
   }
 }
+
+
+
+
+
+/*KEYFRAMES*/
+@keyframes moverIzquierda{
+    /*Animación de izquiera a derecha*/
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moverDerecha{
+    /*Animación de derecha a izquierda*/
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moverArriba{
+    /*Animación de abajo a arriba*/
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moverAbajo{
+    /*Animación de arriba a abajo*/
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes desvanecer{
+    /*Animación para manifestar un elemento que se encuentra oculto*/
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/*FIN DE LOS KEYFRAMES*/

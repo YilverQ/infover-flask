@@ -26,13 +26,13 @@ def index():
 @global_scope.route("/<string:tag>")
 def tag(tag):
 	tag = tag.replace("_", " ")
-	data = tag_controller.read_only(tag)
+	tag = tag_controller.read_only(tag)
 	author = author_controller.get_author()
-	parameters 	= {"title": data.name,
-				   "description": data.introduction[0:140],
+	parameters 	= {"title": tag.name,
+				   "description": tag.introduction[0:140],
 				   "Author": author,
-				   "Tag": data,
-				   "Theme": theme_controller.read_themes_by(tag)
+				   "Tag": tag,
+				   "Theme": theme_controller.read_themes_by(tag.name)
 				  }
 
 	return render_template("tag.html", **parameters)
@@ -42,10 +42,13 @@ def tag(tag):
 @global_scope.route("/<string:tag>/<string:theme>")
 def theme(tag, theme):
 	theme = theme.replace("_", " ")
-	data = theme_controller.read_only(theme)
-	parameters 	= {"title": data.name,
-				   "description": data.introduction[0:140],
-				   "Theme": data
+	tag = tag.replace("_", " ")
+	theme = theme_controller.read_only(theme)
+	tag = tag_controller.read_only(tag)
+	parameters 	= {"title": theme.name,
+				   "description": theme.introduction[0:140],
+				   "Tag": tag,
+				   "Theme": theme
 				  }
 
 	return render_template("theme.html", **parameters, type = type)

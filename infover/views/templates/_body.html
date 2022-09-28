@@ -35,7 +35,7 @@
 {% endmacro %}
 
 
-{% macro body_tag(element) %}
+{% macro body_tag(element, Theme) %}
 		{% for key, value in element['body'].items() %}
 		<div class="section">
 			<h3 class="section__title">{{ key }}</h3>
@@ -44,6 +44,17 @@
          	</p>
 		</div>
 		{% endfor %}
+
+		<div class="tags">
+			{% for i in Theme %}
+			<a href="{{ url_for('view.theme', tag = element['name'].replace(' ', '_') , theme = i['name'].replace(' ', '_')) }}">
+			<div class="tags__tag">
+				<img class="tags__img" src="../static/img/{{ i['logo_image'] }}" alt="{{ i['title'] }}">
+				<h3 class="tag__title">{{ i['name'] }}</h3>
+			</div>
+			</a>
+			{% endfor %}
+		</div>
 {% endmacro %}
 
 
@@ -62,9 +73,7 @@
 				{% endfor %}
 			
 			{% else %}
-         <p class="section__information">
-         	{{ value }}
-         </p>
+         	<p class="section__information">{{ value }}</p>
 			{% endif %}
 		</div>
 		{% endfor %}

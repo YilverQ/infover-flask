@@ -2,7 +2,7 @@
 	"Author": {
 		"name" : "Yilver Quevedo",
 		"title" : "Infover, un blog para conocer las tecnologías del mundo informático",
-		"url_image" : "author/wallpaper.jpg",
+		"url_image" : "author/wallpaper.jpeg",
 		"logo_image" : "author/author.jpg",
 		"index" : ["Introducción", "Novedades", "Temas principales", "Temas específicos", "Conclusión"],
 		"introduction" : "Infover es un blog hecho con la finalidad de compartir el conocimiento sobre la informática sin costo alguno y para el público latinoamericano, además está publicado con la ideología de GNU/Linux lo cual permite a todos los cibernautas gozar de las 4 libertades del Free Software tanto para el contenido publicado como para el código fuente. En caso de que quieras usar o aportar al proyecto Infover puedes acceder sin problemas al github del creador. Y si estás leyendo esto enhorabuena, puedes convertirte en unos de los primeros contribuyente al proyecto.",
@@ -18,7 +18,7 @@
 			"id" : 1,
 			"name" : "Frameworks",
 			"title" : "Aprender Sobre Frameworks Para Agilizar El Desarrollo Y Conocer Cuándo Aplicarlos En Un Proyecto",
-			"url_image" : "tags/Frameworks.jpg",
+			"url_image" : "tags/Frameworks.png",
 			"logo_image" : "tags/frameworks.png",
 			"index" : ["Introducción", "Framework", "¿Cuándo Usar Un Framework?", "Tecnologías Relacionadas Con Los Frameworks", "Conclusión"],
 			"introduction" : "Para realizar un proyecto de software necesitamos un lenguaje de programación y dependiendo de la complejidad del proyecto podemos tardar en completar su desarrollo. Los Frameworks permiten entregar un proyecto en menos tiempo y con un código más limpio. Hoy en día es posible utilizar infinidades de recursos para facilitar las tareas, gracias a esto la automatización cada día es mayor y accesible, contar con modelos que faciliten el desarrollo de un proyecto hace que su realización sea mucho más rápida y eficaz, es aquí donde los programadores pueden  utilizar Frameworks para completar un proyecto con módulos prefabricados que agilizan el desarrollo.",
