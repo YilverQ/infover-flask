@@ -1,14 +1,21 @@
 {% macro ruta(Tag = False, Theme = False) %}
 		<div class="ruta">
-			<i class="fi fi-ss-angle-double-small-right"></i>
-			<a href="{{ url_for('view.index') }}"><p class="ruta__item">Inicio</p></a>
+			<div class="ruta_itemBlock">
+				<i class="fi fi-ss-angle-double-small-right"></i>
+				<a href="{{ url_for('view.index') }}"><p class="ruta__item">Inicio</p></a>
+			</div>
+				
 			{% if (Tag) %}
-			<i class="fi fi-ss-angle-double-small-right"></i>
-			<a href="{{ url_for('view.tag', tag = Tag['name'].replace(' ', '_')) }}"><p class="ruta__item">{{ Tag['name'] }}</p></a>
+			<div class="ruta_itemBlock">
+				<i class="fi fi-ss-angle-double-small-right"></i>
+				<a href="{{ url_for('view.tag', tag = Tag['name'].replace(' ', '_')) }}"><p class="ruta__item">{{ Tag['name'] }}</p></a>
+			</div>
 			{% endif %}
 			{% if (Theme) %}
-			<i class="fi fi-ss-angle-double-small-right"></i>
-			<a href="/{{ Tag['name'].replace(' ', '_') }}/{{  Theme['name'].replace(' ', '_') }}"><p class="ruta__item">{{ Theme['name'] }}</p></a>
+			<div class="ruta_itemBlock">
+				<i class="fi fi-ss-angle-double-small-right"></i>
+				<a href="/{{ Tag['name'].replace(' ', '_') }}/{{  Theme['name'].replace(' ', '_') }}"><p class="ruta__item">{{ Theme['name'] }}</p></a>
+			</div>
 			{% endif %}
 		</div>
 {% endmacro %}
