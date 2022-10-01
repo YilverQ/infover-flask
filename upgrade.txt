@@ -12,16 +12,16 @@ __TrabajoFuturo__
 Fecha: 28 de Mayo del 2021
 Version: 0.3.1
 ¿¿__Información__??
-Se completo la documentación del código, 
-la mayoría por parte de los archivos .py
+    Se completo la documentación del código, 
+    la mayoría por parte de los archivos .py
 
 
 #__ $$ __#
 Fecha: 26 de Septiembre del 2022
 Version: 0.4.0
 ¿¿__Información__??
-Agregar contenido nuevo. 
-Rediseñar el estilo de la página. 
-Cambiar iconos.
-Cambiar imagenes. 
-Una mejor estructura para los proyectos Flask.
+    Se agregó contenido nuevo. 
+    Se hizo un debug y se arregló varios problemas de UX/UI.  Se acomodó -> (Menú/Nav)
+    Se trabajó nuevamente en los archivos CSS. Ahora se trabaja con CSS Grid y metología BEM.
+    Se agregó iconos y enlaces a mis redes. Github/Linkedin/Email.
+    Se cambió la estructura del proyecto. Ahora se trabaja con MVC.

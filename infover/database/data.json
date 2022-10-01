@@ -2,8 +2,8 @@
 	"Author": {
 		"name" : "Yilver Quevedo",
 		"title" : "Infover, un blog para conocer las tecnologías del mundo informático",
-		"url_image" : "author/wallpaper.jpeg",
-		"logo_image" : "author/author.jpg",
+		"url_image" : "author/wallpaper.webp",
+		"logo_image" : "author/author.webp",
 		"index" : ["Introducción", "Novedades", "Temas principales", "Temas específicos", "Conclusión"],
 		"introduction" : "Infover es un blog hecho con la finalidad de compartir el conocimiento sobre la informática sin costo alguno y para el público latinoamericano, además está publicado con la ideología de GNU/Linux lo cual permite a todos los cibernautas gozar de las 4 libertades del Free Software tanto para el contenido publicado como para el código fuente. En caso de que quieras usar o aportar al proyecto Infover puedes acceder sin problemas al github del creador. Y si estás leyendo esto enhorabuena, puedes convertirte en unos de los primeros contribuyente al proyecto.",
 		"body" : {	"Novedades" : "Actualmente nos encontramos con la versión 0.4. Entre las nuevas características podemos contaros que hemos añadido más contenido informativo así como una sección totalmente nueva llamada 'Lenguajes de programación'. Además contamos con nueva interfaz que es mucho más intuitiva y limpia. Y por último, el back-end ha sido mejorado notablemenete integrando una arquitectura de software MVC.",
@@ -18,7 +18,7 @@
 			"id" : 1,
 			"name" : "Frameworks",
 			"title" : "Aprender Sobre Frameworks Para Agilizar El Desarrollo Y Conocer Cuándo Aplicarlos En Un Proyecto",
-			"url_image" : "tags/Frameworks.png",
+			"url_image" : "tags/Frameworks.webp",
 			"logo_image" : "tags/frameworks.png",
 			"index" : ["Introducción", "Framework", "¿Cuándo Usar Un Framework?", "Tecnologías Relacionadas Con Los Frameworks", "Conclusión"],
 			"introduction" : "Para realizar un proyecto de software necesitamos un lenguaje de programación y dependiendo de la complejidad del proyecto podemos tardar en completar su desarrollo. Los Frameworks permiten entregar un proyecto en menos tiempo y con un código más limpio. Hoy en día es posible utilizar infinidades de recursos para facilitar las tareas, gracias a esto la automatización cada día es mayor y accesible, contar con modelos que faciliten el desarrollo de un proyecto hace que su realización sea mucho más rápida y eficaz, es aquí donde los programadores pueden  utilizar Frameworks para completar un proyecto con módulos prefabricados que agilizan el desarrollo.",
@@ -31,7 +31,7 @@
 			"id" : 2,
 			"name" : "Arquitectura De Software",
 			"title" : "Arquitectura de Software Para el Desarrollo Web",
-			"url_image" : "tags/Arquitectura_De_Software.jpg",
+			"url_image" : "tags/Arquitectura_De_Software.webp",
 			"logo_image" : "tags/arquitectura_de_software.png",
 			"index" : ["Introducción", "Arquitectura De Software", "Tecnologías Relacionadas Con La Arquitectura De Software", "Conclusión"],
 			"introduction" : "En el mundo de desarrollo nos enfrentamos a sistemas cada vez más complejos y aunque es software comience como algo pequeño, es posible que pase mucho tiempo activo para ir añadiendo funcionalidades y corrigiendo errores existentes mientras transcurre el tiempo de vida del software. A medida que el software comienza a crecer se vuelve imposible de mantener si no se toman las medidas necesarias, es importante que el software tenga una forma bien definida, de modo que seamos capaces de entenderlo y por supuesto mantenerlo. La arquitectura de software es una rama de la informática y como puede ser la ingeniería de software, la arquitectura de software puede ayudarnos a desarrollar aplicaciones de muy buena calidad.",
@@ -42,7 +42,7 @@
 			"id" : 3,
 			"name" : "Bases De Datos",
 			"title" : "Bases de Datos, Topicos Del Almacenamiento De La Informacion",
-			"url_image" : "tags/Bases_de_Datos.jpg",
+			"url_image" : "tags/Bases_de_Datos.webp",
 			"logo_image" : "tags/bases_de_datos.png",
 			"index" : ["Introducción", "Bases De Datos", "Temas Futuros", "Tecnologías Relacionadas Con Bases De Datos", "Conclusión"],
 			"introduction" : "En la actualidad el uso de los computadores es tan común que es normal verlos en negocios, administración de empresas, tiendas, entre muchos sectores. Y es que la facilidad de procesar es tan relevante que es muy beneficioso para esos sectores. Los datos es un conjunto de información que suele estar en un equipo de computo, estos datos crecen conforme avanza los años, es por eso que se han creado software capaces de administrar estos datos para hacerlos llegar con rapidez y seguridad a su destino final, los usuarios. Y cuando organizamos esta colección de información la llamamos bases de datos. ¿Pero, que es una base de datos?",
@@ -53,16 +53,42 @@
 		},
 		{
 			"id" : 4,
-			"name" : "Ingenieria De Software",
-			"title" : "Desarrollo De Aplicaciones De Alta Calidad Con Ingenieria de Software",
-			"url_image" : "tags/Ingenieria_de_Software.jpg",
-			"logo_image" : "tags/ingenieria_de_software.png",
-			"index" : ["Introducción", "Ingenieria De Software", "importancia De La Ingenieria De Software", "Temas Refente A La Ingenieria De Software", "Conclusión"],
+			"name" : "Ingeniería De Software",
+			"title" : "Desarrollo De Aplicaciones De Alta Calidad Con Ingeniería De Software",
+			"url_image" : "tags/Ingeniería_De_Software.webp",
+			"logo_image" : "tags/ingeniería_de_software.png",
+			"index" : ["Introducción", "Ingeniería De Software", "importancia De La Ingeniería De Software", "Temas Refente A La Ingeniería De Software", "Conclusión"],
 			"introduction" : "A diferencia de otras ingeniería, la ingeniería de software está hecha para tratar software. Pero, los sistemas de software son abstractos e intangibles. No están restringidos por las propiedades de los materiales, regidos por leyes físicas ni procesos de fabricación. Esto simplifica la ingeniería pues no existen limites naturales a su potencia. Sin embargo, debido a la falta de restricciones físicas, el software puede volverse rápidamente complejo, difícil de mantener y costoso de cambiar.  Para resolver este tipo de problema contaremos con un ingeniero en sistema a cargo del software a desarrollar. ",
 			"body" :{	"Ingeniería De Software" : "La ingeniería de software busca apoyar el desarrollo de sistemas profesionales y de alta calidad y a diferencia de la programación individual o personal la ingeniería de software debe incluir técnicas que apoyen la especificación, el diseño y la evolución del programa, ninguno de los cuales son relevantes para el desarrollo de software personal. Entonces, la ingeniería de software es una disciplina de la ingeniería que se interesa por todos los aspectos de la producción de software, desde las primeras etapas de la especificación hasta el mantenimiento de sistema después de su lanzamiento.",
 						"Importancia De La Ingeniería De Software" : "Para entender la importancia de la ingeniería de software en la sociedad, el lector debe tener en cuenta que el software se ha incrustado profundamente en casi todos los aspectos de nuestras vidas y, como consecuencia, el número de personas que tienen interés en las características y funciones que brinda una aplicación ha crecido de forma notable.  Esta realidad simple nos lleva a la conclusión de que cada año la complejidad del software crece, haciendo cada vez más difícil de mantener y sobre todo la necesidad de software es crucial en estos tiempos, para solventar los problemas actuales. Tener ingenieros de software con capacidad de elaborar software de excelente calidad y que sean fácil de mantener serán de mucha importancia."
 					},
 			"finale" : "El software se ha convertido en una pieza fundamental para nuestra sociedad, estando presente en todos lados. Así mismo, el software cada año es mucho más sofisticado, y por consiguiente mas difícil de mantener. A todo esto, necesitamos ingenieros de software, y como sabemos muy bien, la habilidad principal de un ingeniero es hallar soluciones a problemas."
+		},
+		{
+			"id" : 4,
+			"name" : "Lenguajes De Programación",
+			"title" : "Primer paso para dominar la informática comienza conocimiento un lenguaje de programación",
+			"url_image" : "tags/Lenguajes_De_Programación.jpeg",
+			"logo_image" : "tags/lenguajes_de_programacion.png",
+			"index" : ["Introducción", "¿Qué son los lenguajes de programación?", "Uso de los lenguajes en la programación", "Temas referentes a los lenguajes de programación", "Conclusión"],
+			"introduction" : "",
+			"body" :{	"¿Qué son los lenguajes de programación?" : "",
+						"Uso de los lenguajes en la programación" : ""
+					},
+			"finale" : ""
+		},
+		{
+			"id" : 5,
+			"name" : "Diseño UI'UX",
+			"title" : "Hacer diseños bonitos es igual a usuarios satisfechos",
+			"url_image" : "tags/Diseño_UIUX.jpeg",
+			"logo_image" : "tags/diseño_uiux.png",
+			"index" : ["Introducción", "¿Qué son los lenguajes de programación?", "Uso de los lenguajes en la programación", "Temas referentes a los lenguajes de programación", "Conclusión"],
+			"introduction" : "",
+			"body" :{	"¿Qué son los lenguajes de programación?" : "",
+						"Uso de los lenguajes en la programación" : ""
+					},
+			"finale" : ""
 		}
 	],
 	"Theme" : [
@@ -72,7 +98,7 @@
 			"id_tag" : 1,
 			"name" : "Flask",
 			"title" : "Conoce El Microframework De Python Para Realizar Páginas Webs Con Facilidad",
-			"url_image" : "themes/Flask.jpg",
+			"url_image" : "themes/Flask.webp",
 			"logo_image" : "/themes/flask.png",
 			"index" : ["Introducción", "¿Qué es Flask?", "Ventajas De Flask", "Conclusión"],
 			"introduction" : "Desde hace mucho tiempo PHP ha reinado el mundo del back-end Web, y es que PHP fue inicialmente hecho para trabajar con páginas webs, no obstante, los desarrolladores web están optando por variedades en cuando al lenguaje de programación, entre los que podemos mencionar están Java y Ruby, pero sin dudas el que más resuena como opción alternativa es Python. Python es un lenguaje de multiproposito, a diferencias entre JavaScirpt que se ejecuta unicamente en el front-end web (Últimamente esto ha cambiado ya que JavaScript se está adaptando a otros sistemas), y PHP en el back-end web, Python está en todos lados y la web no es la excepción. Python como otros lenguajes cuentan con gran variedad de frameworks que facilitan el trabajo, el más conocido quizás es Django, pero hoy hablaremos del microframework que se posiciona como favorito día tras día.",
@@ -92,7 +118,7 @@
 			"id_tag" : 1,
 			"name" : "Api Rest",
 			"title" : "API Rest, Un Estilo De Arquitectura Para Comunicar Aplicaciones",
-			"url_image" : "themes/Api_Rest.jpg",
+			"url_image" : "themes/Api_Rest.webp",
 			"logo_image" : "themes/api_rest.png",
 			"index" : ["Introducción", "API", "Rest", "Verbos HTTP", "Puntos A Favor", "¿Cuándo Utilizar API Rest?", "Conclusión"],
 			"introduction" : "Realizar una aplicación no es una tarea fácil, solo ponte a pensar como harías para crear una aplicación que tenga bases de datos, back-end y front-end. Para ello necesitamos un equipo. Sería muy conveniente realizar miniaplicaciones y luego integrarlas en una sola aplicación máster, de hecho, esto se hace muy a menudo. API es un conjunto de restricciones que permite la perfecta comunicación entre aplicaciones y si se implementa con Rest que no es más que una forma de utilizar una API, podremos sacarle el máximo provecho a esta arquitectura para realizar nuestras aplicaciones.",
@@ -154,7 +180,7 @@
 			"id_tag" : 1,
 			"name" : "ORM",
 			"title" : "ORMs ¿Por Qué Su Uso Y Cuándo Usarlos?",
-			"url_image" : "themes/ORM.jpg",
+			"url_image" : "themes/ORM.webp",
 			"logo_image" : "themes/orm.png",
 			"index" : ["Introducción", "ORM", "¿Por Qué Su Uso?", "¿Cuándo Usarlos?", "Conclusión"],
 			"introduction" : "La principal atracción de una aplicación será los datos que esta maneje y es que sin datos sencillamente es una aplicación vaciá. Para almacenar los datos tenemos que conectarnos a una base de datos, lo cuál es un trabajo laborioso cuando tenemos que transformar nuestras tablas objetos de nuestra aplicación y viceversa. Para facilitarnos el trabajo han llegado los ORMs, utilizando un ORM el mapeo será automático y por si fuera poco, será independiente de la bases de datos que estemos utilizando pudiendo así cambiar de motor según nuestras necesidades, pero ojo, el uso del ORM no siempre es conveniente ya que su uso puede traer serias repercusiones en cuanto a la velocidad de nuestra aplicación, es por ello que hay que conocer bien como funciona y cuándo aplicarlos.",
@@ -174,7 +200,7 @@
 			"id_tag" : 2,
 			"name" : "DBMS",
 			"title" : "DataBase Manage System, ¿Qué Es Y Ventajas De Su Uso?",
-			"url_image" : "themes/Data_Base_Manage_System.jpg",
+			"url_image" : "themes/Data_Base_Manage_System.webp",
 			"logo_image" : "themes/data_base_manage_system.png",
 			"index" : ["Introducción", "DataBase Management System", "Ventajas De Su Uso", "Lenguajes De Un DBMS", "Conclusión"],
 			"introduction" : "La recopilación de datos en fundamental para cualquier empresa y equipo de desarrolladores, los datos son quizás el motor de vida para cualquier aplicación, es por ello que es importante contar con una bases de datos robusta y que mejor que contar con un Sistema De Gestión De Bases De Datos o como será llamado durante este articulo, DBMS.",
@@ -201,7 +227,7 @@
 		},
 		{
 			"id" : 6,
-			"father" : "Ingenieria De Software",
+			"father" : "Ingeniería De Software",
 			"id_tag" : 1,
 			"name" : "Proceso Unificado",
 			"title" : "Características Del Proceso Unificado, Un Marco De Trabajo Adaptable",
@@ -239,11 +265,11 @@
 		},
 		{
 			"id" : 7,
-			"father" : "Ingenieria De Software",
+			"father" : "Ingeniería De Software",
 			"id_tag" : 2,
 			"name" : "Lenguaje De Modelado Unificado",
 			"title" : "Tópicos De Introducción Al Lenguaje De Modelo Unificado - UML",
-			"url_image" : "themes/UML.jpg",
+			"url_image" : "themes/UML.webp",
 			"logo_image" : "themes/uml.png",
 			"index" : ["Introducción", "Unified Modeling Lenguage - UML", "¿Qué Es Un Modelo?", "Diagramas UML", "Diagramas De Casos De Usos", "Diagramas De Clases", "Diagramas De Secuencias", "Diagramas De Estados", "Diagramas De Actividades", "¿Cuándo Usar Los Diagramas?", "Conclusión"],
 			"introduction" : "UML tiene lo que siempre se quiso desde la crisis del software, una manera de modelar los sistemas. El lenguaje de modelo unificado pretende unificar los mejores modelos e incorporar prácticas para usarse como estándar universal, y lo ha conseguido con éxito. El UML no es un método, es un lenguaje de modelado que se basa en notaciones gráficas de los que se valen los métodos. Tal y como lo hacen los arquitectos y los ingenieros civiles, UML utiliza un vocabulario (gráfico) con el que se pueda entender y especificar con facilidad un sistema.",
@@ -269,6 +295,359 @@
 							"El Lenguaje Unificado de Modificado (UML). Enrique Hernández Orallo. Universidad Politécnica De Valencia. Autores Científicos- Técnicos y Académicos (ACTA).",
 							"Diagramas Del UML. Centro De Creación De La Comunidad De Madrid. Teatro de La Abadía."],
 			"finale" : "El lenguaje de modelo unificado o UML no es una metodología de desarrollo pero si puede usarse dentro de una. El UML es un estándar para comprender y diseñar gráficamente el software o sistema que debemos realizar. El UML se basa en modelos, un modelo es un diseño del sistema que puede ser comprendida con facilidad por los entes comprometidos con el desarrollo."
+		},
+		{
+			"id" : 8,
+			"father" : "Frameworks",
+			"id_tag" : 2,
+			"name" : "Django",
+			"title" : "Un poderoso framework web. Django, diseña rápido, limpio y pragmático",
+			"url_image" : "themes/Django.png",
+			"logo_image" : "themes/django.png",
+			"index" : ["Introducción", "Acerca de Django", "Baterías incluidas", "Arquitectura de Django", "Model", "View", "Template", "Django y las URLs", "Lo bueno", "Lo malo", "Conclusión"],
+			"introduction" : "Django es un framework caracterizado por tener un fondo verde con su mascota oficial, el unicornio. Y esto no es casualidad. Los clientes siguen pidiendo muchas características con lo cual, exigen un unicornio y Django lo ofrece. Otra de las cualidades que hace resaltar a este marco es por su gran comunidad y sobre todo por ayudar a desarrollar sitios de forma rápida mientras que fomenta el diseño limpio y pragmático. Actualmente se encuentra entre los mejores frameworks web, compitiendo directamente con Ruby on Rails, Laravel, Express y Flask.",
+			"body" : {	"Acerca de Django" : "Fue creado en 2005 por desarrolladores experimentados (Adrian Holovaty y Simon Willison) que buscaban solucionar las molestias y problemas más comunes del desarrollo web. Actualmente se encuentra mantenido por la 'Django Software Foundation' con una licencia 'BSD License'. Dicho en otras palabras, es gratis y de código abierto.",
+						"Baterías incluidas" : "Django es una herramienta conocida por tener 'baterías incluidas'. Django es un framework que permite crear web de forma rápida. Pero, es una herramienta que es conocida por tener 'Baterías incluidas'. Para ponerte en contexto, cuándo construyes un sitio web necesitas establecer una serie de componentes como lo son la base de datos, una interfaz, sign up, login, panel de administración, formularios, entre otras cosas. Cada una de estos componentes son llamados baterías, y vienen incluidos por Django para agilizar el proceso de desarrollo.",
+						" " : {
+								"Paquetes de autenticación" : "",
+								"Gestión de secciones" : "",
+								"Generación de XML" : "",
+								"Funciones especiales de Postgres" : "",
+								"CRUD con la base de datos" : "",
+								"Control de versiones" : ""
+							 },
+						"Arquitectura de Django" : "El poder de Django reside en su arquitectura de software, lo que le otorga rapidez y usabilidad. Estamos hablando de la arquitectura MVT (Model - View - Template). Esta modalidad de trabajo le permite crear modelos que generen bases de datos, representar plantillas HTML dinámicas y gestionar toda la lógica de negocio convirtiéndose en la única arquitectura que se necesitará para crear sitios web robustos. A continuación profundizaremos en cada uno de los elementos.",
+						"Model" : "El modelo de Django define la estructura y el comportamiento de los datos que se desea almacenar. Cada modelo de Django que crea genera una tabla de base de datos correspondiente, donde cada atributo del modelo se convierte en un campo en la tabla. Dicho de otra forma, podemos usar el modelo para crear una tabla, sus campos y varias restricciones.",
+						" " : "Podemos decir que 'Django Models' es el SQL de la base de datos que se usa con Django. A veces usar SQL puede traer una serie de problemas relacionados con la base de datos. Pero Django simplifica la tarea.",
+						"View" : "La vista es la segunda capa de la arquitectura MVT de Django, una plantilla es inútil a menos que una vista la represente en la interfaz de usuario. La vista es responsable de aceptar solicitudes web y devolver las respuestas apropiadas (incluidas las plantillas). En su forma más básica, la vista es una función de Python, almacenada en el archivo view.py de su proyecto Django.",
+						"  " : "Una función de vista es una función de Python que toma una solicitud web y devuelve una respuesta web. Esta respuesta puede ser el contenido HTML de una página web, una redirección, un error 404, un documento XML, una imagen, cualquier cosa que pueda mostrar un navegador web. Las vistas de Django son parte de la interfaz de usuario; por lo general, representan el HTML/CSS/Javascript en sus archivos de plantilla en lo que ve en su navegador cuando representa una página web.",
+						"Template" : "El template o plantilla es la tercera parte de nuestra estructura MVT de Django. Una plantilla está escrita en un archivo HTML que combina el contenido estático y dinámico integrando sentencias de Python (Así como se hace con PHP o Laravel) para declarar funciones, módulos, variables y estructuras de control. Django procesa este archivo desde el Backend y genera un código completamente entendible para la Web (únicamente con etiquetas HTML) y la retorna al usuario.",
+						"Django URL Patterns" : "Aunque la arquitectura sea MVT, hay un aspecto más a tener en cuenta. Y es que no hay que dejar atrás a la 'URL Patterns' de Django. Con un módulo de Python llamado URLConf (Configuración de URL) podremos crear rutas para que nuestros usuarios puedan navegar por nuestra aplicación web.",
+						"Lo bueno" : "Django se enorgullece de ser un frameworks con baterías incluidas y esto permite solucionar los problemas más repetitivos al momento de crear una aplicación con un menor esfuerzo y sin escribir tanto código. La comunidad de Django en español es una de las mejores, a diferencia de su principal competencia (Flask). Con Django podrás mirar muchos tutoriales en Youtube y habrá varios Blogs que te enseñarán sus características. El equipo de desarrolladores fueron muy cuidadosos al crear el marco y tuvieron en cuenta muchos aspectos del usuario y del cliente y por si fuera poco la documentación es bastante completa y es útil como tutorial, te ayudará a comprender varias funciones para que puedas usarla como fuente principal de información.",
+						"Lo malo" : "Si bien Django es un marco increíble, hay algunas desventajas que pueden o no ser un problema para usted. Primero son las URL, puede resultar un poco difícil al principio usar expresiones regulares para determinar una URL. Otro aspecto es que se siente un poco inflado para proyectos pequeños, esas 'Baterías incluidas' de las cuales se enorgullece tanto puede jugar en contra en proyectos pequeños.",
+						"   " : "Lo que hace que Django sea más difícil de aprender es que es un marco completo, un Full Stack es todo sentido. Toda la implementación es modular pero eso genera una curva de aprendizaje un tanto pronunciada (Problema que Flask no tiene). Eso me deja el siguiente punto. Django no es tan fácil de aprender, al menos no para los nuevos. Es fácil si ya conoces otras arquitecturas de software como MVC o si tienes experiencias en otros Frameworks (Cómo laravel), pero del resto es un framework completo pero complicado.",
+						"    " : "Quizás su mayor falla es que no se puedan crear APIs, al menos no con Django puro. No obstante podrás crear API Rest si utilizas Django Rest Full."
+						},
+			"reference" : [	"Python Web Development – Django Tutorial - geeksforgeeks - https://www.geeksforgeeks.org/python-web-development-django-tutorial/",
+							"My experience with Django - Mohammed Istiaq Ullah - https://medium.com/@istiaq107/a-bumpy-ride-with-django-35a0d0a49c69",
+							"What is Django? Advantages and Disadvantages - Youssef Nader - https://hackr.io/blog/what-is-django-advantages-and-disadvantages-of-using-django",
+							"Django's MVT Architecture Explained - Kadeisha Kean - https://www.makeuseof.com/django-mvt-architecture/",
+							"Django MVT Architecture - askpython - https://www.askpython.com/django/django-mvt-architecture",
+							"Django makes it easier to build better web apps more quickly and with less code. - Django - https://www.djangoproject.com/"
+							],
+			"finale" : "Django promete ser rápido, al menos en cuanto tiempo de desarrollo. Sus baterías incluidas pueden otorgar tanto la facilidad de desarrollo como también incluir contenido innecesario. Su curva de aprendizaje es un poco pronunciada en comparación con su mayor competidor (Flask). Pero, eso sí. Muchísimo más completo. La ventaja es que acostumbra al desarrollador a programar mejor, con un estilo, un patrón determinado que otorga profesionalismo y algo que no se podrá hacer con Django es el famoso código espagueti (Al menos no tán fácil). El material de Django en internet te mantendrá entretenido por varios meses ya que la comunidad es grande y te enseñaran hacer proyectos semi-grandes. Sin más nada que decir, Django tiene más cosas buenas que negativas, pero es importante aprender de todos los monstruos. El marco es una excelente opción para aprender, no por nada es uno de los mejores frameworks para desarrollar aplicaciones web y unos de los preferidos usando Python."
+		},
+		{
+			"id" : 9,
+			"father" : "Frameworks",
+			"id_tag" : 3,
+			"name" : "Laravel",
+			"title" : "Title",
+			"url_image" : "themes/Laravel.png",
+			"logo_image" : "themes/laravel.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 10,
+			"father" : "Frameworks",
+			"id_tag" : 4,
+			"name" : "VueJs",
+			"title" : "Title",
+			"url_image" : "themes/Vue_Js.jpeg",
+			"logo_image" : "themes/vue_js.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 11,
+			"father" : "Frameworks",
+			"id_tag" : 5,
+			"name" : "React Js",
+			"title" : "Title",
+			"url_image" : "themes/Reacj_Js.png",
+			"logo_image" : "themes/react_js.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 12,
+			"father" : "Arquitectura De Software",
+			"id_tag" : 3,
+			"name" : "Programación Monolítica",
+			"title" : "Title",
+			"url_image" : "themes/Programación_Monolítica.png",
+			"logo_image" : "themes/programación_monolítica.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 13,
+			"father" : "Arquitectura De Software",
+			"id_tag" : 4,
+			"name" : "Micro Servicios",
+			"title" : "Title",
+			"url_image" : "themes/Micro_Servicios.png",
+			"logo_image" : "themes/micro_servicios.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 14,
+			"father" : "Bases De Datos",
+			"id_tag" : 3,
+			"name" : "SQL",
+			"title" : "Title",
+			"url_image" : "themes/SQL.jpeg",
+			"logo_image" : "themes/sql.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 15,
+			"father" : "Bases De Datos",
+			"id_tag" : 4,
+			"name" : "NoSQL",
+			"title" : "Title",
+			"url_image" : "themes/Nosql.jpeg",
+			"logo_image" : "themes/nosql.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 16,
+			"father" : "Ingeniería De Software",
+			"id_tag" : 3,
+			"name" : "Análisis De Requerimientos",
+			"title" : "Title",
+			"url_image" : "themes/Análisis_De_Requerimientos.jpeg",
+			"logo_image" : "themes/análisis_de_requerimientos.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 17,
+			"father" : "Ingeniería De Software",
+			"id_tag" : 4,
+			"name" : "Estudiar Informática",
+			"title" : "Title",
+			"url_image" : "themes/Estudiar_Informática.jpeg",
+			"logo_image" : "themes/estudiar_informática.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 18,
+			"father" : "Lenguajes De Programación",
+			"id_tag" : 1,
+			"name" : "Javascript",
+			"title" : "Title",
+			"url_image" : "themes/Javascript.jpeg",
+			"logo_image" : "themes/javascript.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 19,
+			"father" : "Lenguajes De Programación",
+			"id_tag" : 2,
+			"name" : "Python",
+			"title" : "Title",
+			"url_image" : "themes/Python.png",
+			"logo_image" : "themes/python.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 20,
+			"father" : "Lenguajes De Programación",
+			"id_tag" : 3,
+			"name" : "PHP",
+			"title" : "Title",
+			"url_image" : "themes/PHP.png",
+			"logo_image" : "themes/php.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
+		},
+		{
+			"id" : 21,
+			"father" : "Diseño UI'UX",
+			"id_tag" : 1,
+			"name" : "Teoría Del Color",
+			"title" : "Title",
+			"url_image" : "themes/Teoría_Del_Color.png",
+			"logo_image" : "themes/teoría_del_color.png",
+			"index" : ["Introducción", "Title1", "Title2", "Conclusión"],
+			"introduction" : "",
+			"body" : {	"Title1" : "",
+						"Title2" : "",
+						" " : {
+								"Subtitle1" : "",
+								"Subtitle2" : "",
+								"Subtitle3" : ""
+							 },
+						"Title3" : ""
+					},
+			"reference" : [	"Lorem",
+							"ww.lorem.com"
+							],
+			"finale" : ""
 		}
 	]
 }

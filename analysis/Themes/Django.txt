@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+#################################################
+Python Web Development – Django Tutorial - geeksforgeeks - https://www.geeksforgeeks.org/python-web-development-django-tutorial/
+-------------------------------------------------
+	Introduction.
+	Why Django Framework?
+		** Excelente documentación y escabilidad.
+		** Django es fácil de aprender. 
+	Django Architecture.
+		Django esta basado en la arquitectura MTV. 
+		Model.
+		Template.
+		View.
+
+	Django Views.
+		Una función de vista es una función de Python que toma una solicitud web y devuelve una respuesta web. Esta respuesta puede ser el contenido HTML de una página web, una redirección, un error 404, un documento XML, una imagen, cualquier cosa que pueda mostrar un navegador web. Las vistas de Django son parte de la interfaz de usuario; por lo general, representan el HTML/CSS/Javascript en sus archivos de plantilla en lo que ve en su navegador cuando representa una página web.
+
+	Django URL Patterns.
+		En Django, cada vista debe asignarse a un patrón de URL correspondiente. Esto se hace a través de un módulo de Python llamado URLConf (configuración de URL). Cada módulo de URLConf debe contener una variable urlpatterns, que es un conjunto de patrones de URL que se compararán con la URL solicitada. Estos patrones se verificarán en secuencia hasta que se encuentre la primera coincidencia. Luego se invoca la vista correspondiente a la primera coincidencia. Si no coincide ningún patrón de URL, Django invoca una vista de manejo de errores adecuada.
+
+	Django Models.
+		Un modelo de Django es la característica incorporada que utiliza Django para crear tablas, sus campos y varias restricciones. En resumen, Django Models es el SQL de la base de datos que se usa con Django. SQL (lenguaje de consulta estructurado) es complejo e implica muchas consultas diferentes para crear, eliminar, actualizar o cualquier otra cosa relacionada con la base de datos. Los modelos de Django simplifican las tareas y organizan las tablas en modelos. Generalmente, cada modelo se asigna a una sola tabla de base de datos.
+
+		Esta sección gira en torno a cómo se pueden usar los modelos de Django para almacenar datos en la base de datos de manera conveniente. Además, podemos usar el panel de administración de Django para crear, actualizar, eliminar o recuperar campos de un modelo y varias operaciones similares. Los modelos de Django brindan simplicidad, consistencia, control de versiones y manejo avanzado de metadatos. 
+
+	Django Templates.
+		Las plantillas son la tercera y más importante parte de la estructura MVT de Django. Una plantilla en Django está básicamente escrita en HTML, CSS y Javascript en un archivo .html. Django framework maneja y genera dinámicamente páginas web HTML que son visibles para el usuario final. Django funciona principalmente con un backend, por lo que, para proporcionar un frontend y proporcionar un diseño a nuestro sitio web, usamos plantillas. Existen dos métodos para añadir la plantilla a nuestro sitio web en función de nuestras necesidades.
+
+	Baterías Incluidas:
+		Django es un framework que permite crear web de forma rápida. Pero, es una herramienta que es conocida por tener 'Baterías incluidas'. Para ponerte en contexto, cuándo construyes un sitio web necesitas establecer una serie de componentes como lo son la base de datos, una interfaz, sing up, login, panel de administración formularios, entre otras cosas. Cada una de estos componenetes son llamados baterías, y vienen incluido por Django para agilizar el proceso de desarrollo. 
+
+		## Django no es tán fácil de aprender. 
+#################################################
+
+
+#################################################
+My experience with Django - Mohammed Istiaq Ullah - https://medium.com/@istiaq107/a-bumpy-ride-with-django-35a0d0a49c69
+-------------------------------------------------	
+	How does Django work — 
+		Lo que hace que Django sea más difícil de aprender es que es un marco Full Stack, es decir, utiliza tanto el front-end como el back-end juntos en un solo contenedor. Toda la implementación es muy, como me gusta llamarlo, modular, lo cual es bueno, pero le da una curva de aprendizaje pronunciada, ya que debe realizar un seguimiento de todos los componentes. Las características principales son: los modelos, las vistas y las plantillas. Los modelos son básicamente la fuente de los datos que se muestran en la página web. Los datos pueden ser todas las publicaciones en su fuente de noticias, los artículos en la página de inicio de Medium o también los correos en su gmail. Todos están almacenados en algún lugar, y es trabajo del modelo extraer los datos de ese almacén y pasarlos a las vistas que luego los usan para completar las plantillas. La vista es simple: básicamente configura lo que ve. La vista representa las plantillas, que es donde reside la lógica para el formato de los datos del modelo. Aquí es donde ocurre el estilo, es decir, la parte delantera.
+	What makes Django so good —
+		La mascota oficial de Django es un unicornio, ¿por qué? porque la gente sigue pidiendo muchas características, lo quieren todo: un unicornio. Comenzar una nueva aplicación en Django requiere una gran cantidad de código repetitivo y por una buena razón: está configurando todas estas funciones que están disponibles para que las use el desarrollador. Por ejemplo, Django-admin, una consola de usuario integrada, le permite ver y jugar con los datos del modelo. La autenticación incorporada le permite autenticar sus páginas web utilizando solo un par de líneas de código adicionales.
+#################################################
+
+
+#################################################
+What is Django? Advantages and Disadvantages - Youssef Nader - https://hackr.io/blog/what-is-django-advantages-and-disadvantages-of-using-django
+-------------------------------------------------
+	What is Django?
+		Django es un marco web MVT que se utiliza para crear aplicaciones web. Se define a sí mismo como un marco web de 'baterías incluidas', con robustez y simplicidad para ayudar a los desarrolladores web a escribir código limpio, eficiente y potente. Se encuentra entre los marcos web más famosos del mundo y también es uno de los marcos más utilizados. 
+
+				    Authentication with auth package
+				    Admin interfacing with admin package
+				    Session management with Sessions package
+				    Managing temporary or session-based messages with Messages package
+				    Generating Google sitemap XML with Sitemaps package
+				    Postgres special features with Postgres Package
+				    Hooking into “types” of content with content types framework
+		La comunidad de Django es una de las mejores cosas al respecto, son útiles y trabajan activamente para hacer que el marco sea más fácil de usar para principiantes y estabilizar el marco mientras se agregan nuevas funciones. La documentación de Django es bastante completa y es útil como tutorial independiente, lo ayudará a comprender varias funciones para que pueda usarla como fuente principal de información.
+
+		El equipo de Django fue muy cuidadoso cuando crearon el marco y tuvieron en cuenta la satisfacción del usuario y del cliente. No es razonable crear su propia interfaz de administración en el backend solo para poder administrar sus datos con operaciones CRUD básicas. Es por eso que Django ofrece una interfaz administrativa lista para usar que es a la vez profesional y versátil, de acuerdo con los documentos que el desarrollador ahora puede desarrollar con la presentación en mente.
+
+	Advantages of Django
+		Django se enorgullece de ser un framework con baterías incluidas. Lo que eso significa es que viene con muchas cosas listas para usar, que puede usar o no según su aplicación. En lugar de tener que escribir su propio código (el poder), solo necesita importar los paquetes que desea usar.
+	Disadvantages of Django
+		Si bien Django es un marco increíble, hay algunas desventajas que pueden o no ser un problema para usted. Primero, especificar la URL con expresiones regulares no es una tarea fácil de lograr, al menos para los principiantes. También se siente un poco inflado para proyectos pequeños, y algunas personas lo encuentran bastante poblado con proyectos grandes ya que los modelos, por ejemplo, están todos incluidos en un solo archivo. Los errores de plantilla fallan silenciosamente de forma predeterminada, por lo que si no lo sabe, puede perder mucho tiempo tratando de descubrir qué está mal con la aplicación o, lo que es peor, es posible que ni siquiera sepa que su aplicación tiene un problema. También es un marco fuertemente obstinado, lo que le da una sensación monolítica. Hay una forma popular y recomendada de hacer las cosas y se supone que debes seguirla.
+#################################################
+
+
+#################################################
+Django's MVT Architecture Explained - Kadeisha Kean - https://www.makeuseof.com/django-mvt-architecture/
+-------------------------------------------------
+	Introduction.
+		El marco web de Django tiene una arquitectura modelo-vista-plantilla (MVT), lo que lo convierte en el único marco que necesitará para crear un sitio web o una aplicación web completos. Este marco de trabajo de Python le permite crear modelos que generan bases de datos y representan plantillas HTML dinámicas en la interfaz de usuario mediante vistas.
+
+		El poder de Django no es ningún secreto; es rápido, confiable, escalable y seguro. La confiabilidad, así como la escalabilidad de este software, se basan en su arquitectura MVT. Y en este artículo, aprenderá exactamente cómo funciona la arquitectura MVT de Django.
+	What Is Django’s Model?
+		El modelo en la arquitectura MVT de Django define la estructura y el comportamiento de los datos que desea almacenar a través de su sitio web. Cada modelo de Django que crea genera una tabla de base de datos correspondiente, donde cada atributo del modelo se convierte en un campo en la tabla.
+
+	What Is Django’s Template?
+		Las plantillas son una forma de generar HTML dinámicamente para su proyecto Django. Cada plantilla de Django tiene la extensión .html y una combinación de contenido estático y dinámico. Las plantillas de Django tienen una sintaxis única que incluye nuevas formas de crear variables y etiquetas en un documento HTML.
+
+	What Is Django’s View?
+		La vista es la segunda capa de la arquitectura MVT de Django, una plantilla es inútil a menos que una vista la represente en la interfaz de usuario. La vista es responsable de aceptar solicitudes web y devolver las respuestas apropiadas (incluidas las plantillas). En su forma más básica, la vista es una función de Python, almacenada en el archivo view.py de su proyecto Django.
+
+	Django’s MVT Architecture vs. MVC Architecture
+		La arquitectura MVT de Django es bastante diferente de la popular arquitectura MVC.
+
+		La sección de plantilla de la arquitectura MVT funciona de manera muy similar a la vista en la arquitectura MVC, mientras que la vista en la arquitectura MVT muestra cualidades que son similares al controlador en la arquitectura MVC. Sin embargo, los modelos en ambas arquitecturas funcionan de manera idéntica.
+#################################################
+
+
+#################################################
+Django MVT Architecture - askpython - https://www.askpython.com/django/django-mvt-architecture
+-------------------------------------------------
+	What is MVC Architecture?
+	What is the Django MVT architecture?
+	Control Flow of MVT
+	Conclusion.
+#################################################
+
+#################################################
+Django makes it easier to build better web apps more quickly and with less code. - Django - https://www.djangoproject.com/
+-------------------------------------------------
+	Django facilita la creación de mejores aplicaciones web de forma más rápida y con menos código.
+
+	Meet Django.
+		Django es un framework web de python de excelencia. Se caracteriza por fomentar un desarrollo rápido y un deseño limpio y pragmático. Fue creado en 2005 por desarrolladores experimentados, se ocupa de gran parte de las molestias del desarrollo web, por lo que puede concentrarse en escribir su aplicación sin necesidad de reinventar la rueda. Es gratis y de código abierto. 
+
+	Ridiculously fast.
+		Es usado para llevar las aplicaciones desde el concepto hasta su finialización lo más rápido posible. 
+
+	Reassuringly secure.
+		El framework se toma en serio la seguridad, evitando muchos de los errores comunes. 
+
+	Exceedingly scalable.
+		Se puede aprovechar la capacidad de django para escalar de forma rápida y flexible.
+
+	Django promete ser rápido.
+#################################################
+
+Index:
+	'Introducción', 'Acerca de Django', 'Baterías incluidas', 'Arquitectura de Django', 'Model', 'View', 'Template', 'Django y las URLs', 'Lo bueno', 'Lo malo', 'Conclusión'
+	
+Introducción.
+	Django es un framework caracterizado por tener un fondo verde con su mascota oficial un unicornio. Y esto no es casualidad, los clientes siguen pidiendo muchas características con lo cual, exigen un unicornio y Django lo ofrece. Otra de las cualidades que hace resaltar a este marco es por su gran comunidad y sobre todo por ayudar a desarrollar sitios de forma rápida mientras que fomenta el diseño limpio y pragmático. Actualmente se encuentra entre los mejores frameworks web, compitiendo directamente con Ruby on Rails, Laravel, Express y Flask.
+
+
+Acerca de Django
+	Fue creado en 2005 por desarrolladores experimentados (Adrian Holovaty y Simon Willison) que buscaban solucionar las molestias y problemas más comunes del desarrollo web. Actualmente se encuentra mantenido por la 'Django Software Foundation' con una licencia 'BSD License'. Dicho en otras palabras, es gratis y de código abierto. 
+
+
+Baterías incluidas.
+	Django es una herramienta conocida por tener 'baterías incluidas'. Django es un framework que permite crear web de forma rápida. Pero, es una herramienta que es conocida por tener 'Baterías incluidas'. Para ponerte en contexto, cuándo construyes un sitio web necesitas establecer una serie de componentes como lo son la base de datos, una interfaz, sign up, login, panel de administración, formularios, entre otras cosas. Cada una de estos componentes son llamados baterías, y vienen incluidos por Django para agilizar el proceso de desarrollo. 
+
+	    Paquetes de autenticación.
+	    Gestión de secciones.
+	    Generación de XML.
+	    Funciones especiales de Postgres.	
+	    CRUD con la base de datos.
+	    Control de versiones. 
+
+
+Arquitectura de Django.
+	El poder de Django reside en su arquitectura de software, lo que le otorga rapidez y usabilidad. Estamos hablando de la arquitectura MVT (Model - View - Template). Esta modalidad de trabajo le permite crear modelos que generen bases de datos, representar plantillas HTML dinámicas y gestionar toda la lógica de negocio convirtiéndose en la única arquitectura que se necesitará para crear sitios web robustos. A continuación profundizaremos en cada uno de los elementos.
+
+Model.
+	El modelo de Django define la estructura y el comportamiento de los datos que se desea almacenar. Cada modelo de Django que crea genera una tabla de base de datos correspondiente, donde cada atributo del modelo se convierte en un campo en la tabla. Dicho de otra forma, podemos usar el modelo para crear una tabla, sus campos y varias restricciones. 
+
+	Podemos decir que 'Django Models' es el SQL de la base de datos que se usa con Django. A veces usar SQL puede traer una serie de problemas relacionados con la base de datos. Pero Django simplifica la tarea.
+
+
+View.
+	La vista es la segunda capa de la arquitectura MVT de Django, una plantilla es inútil a menos que una vista la represente en la interfaz de usuario. La vista es responsable de aceptar solicitudes web y devolver las respuestas apropiadas (incluidas las plantillas). En su forma más básica, la vista es una función de Python, almacenada en el archivo view.py de su proyecto Django.
+
+	Una función de vista es una función de Python que toma una solicitud web y devuelve una respuesta web. Esta respuesta puede ser el contenido HTML de una página web, una redirección, un error 404, un documento XML, una imagen, cualquier cosa que pueda mostrar un navegador web. Las vistas de Django son parte de la interfaz de usuario; por lo general, representan el HTML/CSS/Javascript en sus archivos de plantilla en lo que ve en su navegador cuando representa una página web.
+
+
+Template.
+	El template o plantilla es la tercera parte de nuestra estructura MVT de Django. Una plantilla está escrita en un archivo HTML que combina el contenido estático y dinámico integrando sentencias de Python (Así como se hace con PHP o Laravel) para declarar funciones, módulos, variables y estructuras de control. Django procesa este archivo desde el Backend y genera un código completamente entendible para la Web (únicamente con etiquetas HTML) y la retorna al usuario.
+
+
+Django URL Patterns.
+	Aunque la arquitectura sea MVT, hay un aspecto más a tener en cuenta. Y es que no hay que dejar atrás a la 'URL Patterns' de Django. Con un módulo de Python llamado URLConf (Configuración de URL) podremos crear rutas para que nuestros usuarios puedan navegar por nuestra aplicación web. 
+
+
+Lo bueno.
+	Django se enorgullece de ser un frameworks con baterías incluidas y esto permite solucionar los problemas más repetitivos al momento de crear una aplicación con un menor esfuerzo y sin escribir tanto código. La comunidad de Django en español es una de las mejores, a diferencia de su principal competencia (Flask). Con Django podrás mirar muchos tutoriales en Youtube y habrá varios Blogs que te enseñarán sus características. El equipo de desarrolladores fueron muy cuidadosos al crear el marco y tuvieron en cuenta muchos aspectos del usuario y del cliente y por si fuera poco la documentación es bastante completa y es útil como tutorial, te ayudará a comprender varias funciones para que puedas usarla como fuente principal de información.
+
+Lo malo.
+	Si bien Django es un marco increíble, hay algunas desventajas que pueden o no ser un problema para usted. Primero son las URL, puede resultar un poco difícil al principio usar expresiones regulares para determinar una URL. Otro aspecto es que se siente un poco inflado para proyectos pequeños, esas 'Baterías incluidas' de las cuales se enorgullece tanto puede jugar en contra en proyectos pequeños. 
+
+	Lo que hace que Django sea más difícil de aprender es que es un marco completo, un Full Stack es todo sentido. Toda la implementación es modular pero eso genera una curva de aprendizaje un tanto pronunciada (Problema que Flask no tiene). Eso me deja el siguiente punto. Django no es tan fácil de aprender, al menos no para los nuevos. Es fácil si ya conoces otras arquitecturas de software como MVC o si tienes experiencias en otros Frameworks (Cómo laravel), pero del resto es un framework completo pero complicado.   
+
+	Quizás su mayor falla es que no se puedan crear APIs, al menos no con Django puro. No obstante podrás crear API Rest si utilizas Django Rest Full. 
+
+Conclusión.
+	Django promete ser rápido, al menos en cuanto tiempo de desarrollo. Sus baterías incluidas pueden otorgar tanto la facilidad de desarrollo como también incluir contenido innecesario. Su curva de aprendizaje es un poco pronunciada en comparación con su mayor competidor (Flask). Pero, eso sí. Muchísimo más completo. 
+
+	La ventaja es que acostumbra al desarrollador a programar mejor, con un estilo, un patrón determinado que otorga profesionalismo y algo que no se podrá hacer con Django es el famoso código espagueti (Al menos no tán fácil). El material de Django en internet te mantendrá entretenido por varios meses ya que la comunidad es grande y te enseñaran hacer proyectos semi-grandes. 
+
+	Sin más nada que decir, Django tiene más cosas buenas que negativas, pero es importante aprender de todos los monstruos. El marco es una excelente opción para aprender, no por nada es uno de los mejores frameworks para desarrollar aplicaciones web y unos de los preferidos usando Python.
