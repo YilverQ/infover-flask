@@ -1,0 +1,77 @@
+analisis_de_requerimientos.txt
+
+Introducción.
+	Antes de comenzar cualquier proyecto es recomendable aplicar una serie de técnicas como ingeniero de software, recordemos que estos son los que tienen como tarea completar un proyecto asegurando que el software sea de calidad. La ingeniería de requerimientos es un conjunto de actividades que pueden aplicar los ingenieros de software, este conjunto de técnicas llegarán a la comprensión de que es lo que quiere el cliente y cómo actuará los usuarios finales. Los requerimientos nos dirán que es lo que el cliente espera tras finalizar el desarrollo de la aplicación, es por ello que se tiene sumo cuidado para poder prevenir de los posibles errores. 
+
+Ingeniería de requerimientos.
+	La construcción de un software es una actividad divertida, tanto que muchos quieren ir directo al grano y empezar a picar código cuando ni siquiera hemos dedicado el tiempo suficiente a entender claramente lo que necesita el cliente. Entender los requerimientos es hacer la aplicación sin siquiera picar una línea de código. La ingeniería de requerimientos establece una base sólida para el diseño y la construcción. Sin esta, el resultado tiene una alta probabilidad de no satisfacer las necesidades y por ende sería un software inconcluso.
+
+	¿Pero qué es exactamente ingeniería de requerimientos? Las técnicas que llevan a entender los requerimientos se denomina ingeniería de requerimientos. Es una de las acciones más importantes de la ingeniería de software que comienza desde el primer encuentro con el cliente. Las técnicas de la ingeniería de requerimientos también permite conocer el contexto del trabajo que se deberá realizar y las necesidades que deben ser abordadas. En resumidas cuentas, es una actividad para entre los requisitos.
+
+Actividades de la ingeniería de requerimientos.
+
+	Concepción: Los clientes en esta fase pueden definir un caso de negocio para la idea, identifican la profundidad del mercado, hacen un análisis de factibilidad del software e identifican una descripción funcional. Toda esta información es cambiante, pero en principios es lo justo y necesario para hacer uso de la ingeniería de software.
+
+	Indagación: La fase de indagación consiste en obtener información relevante acerca del principal objetivo del sistema, de cómo va a satisfacer las necesidades del negocio, de cómo va a usarse en la cotidianidad entre otros aspectos. Dicho de esta manera parece muy sencillo obtener esta información mediante la realización de preguntas a clientes y usuarios, pero en realidad es una tarea muy complicada de llevar a cabo. 
+
+	Elaboración: La información recopilada a través del cliente durante las dos fases anteriores se modifican con el objetivo de extender y depurar los requerimientos. El principal objetivo es el desarrollo de un modelo de requisitos en el cual se reconozcan los diferentes aspectos del comportamiento, función e información del software.
+
+	Negociación: En numerosas ocasiones, el cliente y usuario solicitan más de lo que se puede obtener según sus recursos limitados de negocio, o también estos sugieren incluir ciertos requisitos conflictivos, objetando que estos son esenciales para sus necesidades. Todo este conjunto de cuestiones debe solucionarse mediante un proceso de negociación. Para ello, se solicita a los usuarios del sistema que prioricen sus requisitos.
+
+	Especificación: Una especificación puede ser un documento escrito, un conjunto de modelos gráficos, casos de usos o cualquier combinación de estos. Lo que se busca es esclarecer de forma abstracta y documentada los requisitos del sistema.
+
+	Validación: La validación es la fase en la que se comprueba la calidad del producto que se ha originado como fruto de la ingeniería de requisitos. En dicha fase se revisa el documento de especificación de requisitos con el fin de comprobar y verificar que cada uno de los requerimientos se ha cumplido en base a los estándares inicialmente definidos para el producto, el proceso y el proyecto. 
+
+	Administración de los requisitos: Los requisitos pueden cambiar a lo largo del proyecto. Por lo tanto, la fase de administración se encarga de identificar, controlar y dar seguimiento al conjunto de requerimientos y sus posibles modificaciones en cualquier momento del desarrollo del proyecto. 
+
+
+Requerimientos.
+	Los requerimientos de un sistema deben describir lo que el sistema debe hacer, el servicio que ofrece y las restricciones. Pero, la primera pregunta que debemos plantearnos es ¿Qué entendemos cuando hablamos de requerimientos? Y la respuesta es que un requerimiento es una explicación en detalle de lo que se debe realizar en función de las necesidades del cliente. Los requerimientos también dan a comprender el problema del que partimos y cuáles son los pasos para resolver la problemática.
+
+
+Clasificación de requerimientos.
+	Con la clasificación de requerimientos consideramos diferentes enfoques para generar una propuesta adecuada. Es por ello que se toman en cuenta cada tipo de requerimiento, ya que cada una aporta una perspectiva diferente del proyecto.
+
+
+	Requerimientos de negocios: Se describen a alto nivel las necesidades de la organización, sus metas y objetivos. Esto implica precisar los antecedentes y objetivos del proyecto, indicadores de desempeño de gestión y operación para el seguimiento del proyecto. 
+
+	Requerimientos de las Partes Interesadas: Son las declaraciones de las necesidades de un interesado o clase particular de partes interesadas. Describe la necesidad que tiene un determinado actor y cómo interactúan las partes interesadas con la solución.
+
+	Requerimientos Funcionales: Los requerimientos funcionales refieren lo que el sistema debe hacer. Tales requerimientos dependen del tipo de software que se esté desarrollando, de los usuarios finales y la organización para la cual es desarrollada.
+
+	Requerimientos no Funcionales: Los requerimientos no funcionales, como indica su nombre, son requerimientos que no se relacionan directamente con los servicios específicos que el sistema entrega a sus usuarios. Pueden relacionarse con propiedades emergentes del sistema, como fiabilidad, tiempo de respuesta y uso de almacenamiento. 
+
+	Requerimientos de Transición: Definen las capacidades que debe tener la solución para facilitar la transición desde el estado actual de la empresa a un estado futuro deseado, pero que no será necesario una vez que la transición esté completa. Se diferencian de otros tipos de requisitos porque son siempre de naturaleza temporal y porque no pueden desarrollarse hasta que se define una solución nueva y existente. 
+
+
+Elicitación de requerimientos.
+	La actividad de elicitación de requerimientos constituye una actividad clave a la hora de definir requerimientos. Básicamente elicitar es provocar, suscitar los requerimientos. En la ingeniería de software se considera que el éxito de una aplicación reside en la asertividad de la elicitación de requerimientos. 
+
+	Lluvia de ideas: La técnica de lluvia de ideas es utilizada para generar y recopilar varias ideas relacionadas con un mismo tema. En un pizarrón u hoja se anotarán todas las ideas que se tengan sin importar que tan racionales sean, lo que se quiere con esta técnica es que las ideas surjan. 
+
+	Análisis de documentos: Esta técnica involucra el análisis de la documentación existente que pueda servir de base. Con esta técnica se busca identificar información relevante. Involucra revisión de documentos, planes de negocio, estudio de mercados, contratos, solicitudes de propuestas, memorandos, guías de capacitación, entre otros. Con esto se busca obtener la mejor cobertura de los requisitos. 
+
+	Focus Group: Un grupo focal se genera para intercambiar ideas acerca del producto, servicio o resultado propuesto. El grupo es guiado por un facilitador y los participantes son expertos en el tema a tratar. Se genera un espacio para discutir el tema y que cada uno exprese su perspectiva basado en su experiencia. También pueden participar otras personas pero limitadas solo a observar y no a participar activamente. En cuanto al facilitador, este tiene la misión de guiar al grupo para obtener un resultado cualitativo satisfactorio y generar el informe final. 
+
+	Análisis de interfaces: La interfaz es el punto de interconexión entre dos partes del sistema. Dicho de otra forma, la interfaz refiere al usuario que interactúa con el sistema. Considerando que el usuario tendrá un papel relevante en su uso, será necesario que sean previamente revisadas y validadas por el usuario antes de su finalización.
+
+	Entrevistas: En una entrevista, el entrevistador dirige formal o informalmente con preguntas a una parte interesada; la finalidad es obtener respuestas que se utilizarán para crear requisitos formales. Las preguntas pueden ser estructuradas previamente o de manera espontánea. La efectividad de la entrevista se contempla con la experiencia y capacidad del entrevistador. Las entrevistas pueden realizarse de manera colectiva a un grupo interesado, sin embargo, las entrevistas individuales son más comunes. 
+
+	Observación: Esta técnica implica que una persona observe a otra ejecutar sus actividades en su lugar de trabajo; el objetivo es conocer las actividades que realiza, identificar el proceso y capturar requisitos.
+
+	Prototipos: Mediante los prototipos se obtiene la retroalimentación de los requisitos. En cuanto la interfaz mostrada como prototipo, el usuario puede obtener una experiencia previa a la construcción y de esta forma se pueda acentuar los requisitos en relación con el software. La elaboración del prototipo implica el término iterativo, pues el prototipo inicial se retroalimenta y genera nuevas versiones hasta que el usuario apruebe el prototipo y pueda pasar a la fase de diseño y construcción. 
+
+	Talleres de requisitos: Un taller puede utilizarse para determinar, definir, establecer prioridades y alcanzar el cierre de los requisitos para el desarrollo de software. Una buena dirección de taller entrega requerimientos de alta calidad. La finalidad es promover un ambiente de confianza, comprensión y comunicación eficaz entre los interesados del proyecto y producir resultados que soporten el análisis y diseño del producto de software. 
+
+	Encuesta/Cuestionarios: Los cuestionarios o encuestas contienen un grupo de preguntas orientadas a obtener información específica de los usuarios rápidamente. Generalmente son solicitadas de manera anónima con la finalidad de obtener información de clientes, productos, servicios, procesos, actitudes, entre otros. 
+
+
+Conclusión: 
+	Es muy bien conocido que las prácticas de ingeniería de software no son muy habituales en un desarrollo pequeño, pero son los sistemas que no tienen ingeniería de software los que falla. La ingeniería de requirimientos al igual que la ingneiría de software utiliza una serie de técnicas para guiar el desarrollo por el mejor camino posible. No hay camino perfecto, pero podemos aplicar estos conocimientos pra cometer el mínimo de errores.
+
+
+	Ingeniería de requerimientos
+Actividades de la ingeniería de requerimientos
+Requerimientos
+Clasificación de requerimientos
+Elicitación de requerimientos

@@ -1,0 +1,17 @@
+Lenguajes_de_Programación.txt
+
+
+Introducción.
+	La informática es un mundo bonito, gracias a ella tenemos las redes sociales, correos electrónicos e internet. Las virtudes son obvias y están a la vista de todos. Muchas personas deciden estudiar la informática para poder crear un nuevo Facebook, una aplicación como ninguna o videojuegos. Ya sea lo que decidas crear y el modo que lo decidas estudiar (Universidad, academia, Bootcamp, autodidacta) el primer paso que todo estudiante y principiante debería desarrollar un pensamiento computacional, saber como actúa una computadora y como podemos asignarles tareas. Aquí es donde entran los lenguajes de programación. 
+
+¿Qué son los lenguajes de programación?
+	La programación se refiere a la actividad de asignar una tarea para ser ejecutada. Por poner un ejemplo, en las noches antes de dormir asignamos una hora para que suene el teléfono y así poder despertarse temprano. Se 'programa' el teléfono para que ejecute una tarea por nosotros. Ahora bien, los lenguajes de programación son la forma que nos comunicamos con la máquina. Actualmente existen muchos y dependiendo el área deberás aprender uno u otro. 
+
+Uso de los lenguajes en la programación.
+	Existen áreas dentro de la programación, o mejor dicho, dividimos la programación según nuestros objetivos. La área más popular es la programación Web, aquellos que la aprendan podrán realizar sitios webs, blogs, wikis, entre otras cosas; Por otro lado, existen desarrolladores de aplicaciones móviles (Generalmente se llaman programadores o desarrolladores), estos se dedican a realizar aplicaciones para IOS y Android, ya sean juegos o programas de negocio. Y por último están los que desarrollan aplicaciones para PC, estos también pueden ser juegos o de negocio. 
+
+Pensamiento computacional.
+	Debo confesar que aprender un lenguaje de programación no asegura que puedas crear aplicaciones. Antes de todo viene el pensamiento computacional. Aquello se refiere a la capacidad de una persona para pensar y solucionar problemas como lo haría una máquina. Conseguirlo puede resultar difícil al principio, pero es algo que se puede desarrollar con el tiempo, después de todo, es como entrenar en el GYM. Las habilidades de un pensamiento computacional son: Descomponer el problema en pequeños problemas, saber reconocer patrones, pensamiento abstracto, conocimiento de algoritmos (Pasos que hace una computadora para realizar una tarea). 
+
+Conclusión.
+	La programación es el primer paso para dominar la informática y para conseguirlo hará falta emplear una gran cantidad de esfuerzo que al final se convertirá en una de las habilidades más grandiosas que tendrás. Ya sea para hacer páginas web, aplicaciones móviles, videojuegos o cualquier otra área es importante aprender un lenguaje de programación y con ello desarrollar el pensamiento computacional. Si estás dispuesto a cambiar el mundo, bienvenido.
