@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
 	#Application.
-	SERVER_NAME = "192.168.0.104:5000"
+	SERVER_NAME = "192.168.0.105:5000"
 	DEBUG = True
 
 	#Database.

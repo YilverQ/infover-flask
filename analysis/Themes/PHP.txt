@@ -1,1 +1,96 @@
-PHP.txt
+PHP
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+CONOCIENDO EL LENGUAJE DE PROGRAMACIÓN PHP - Yefferson Rojas y Douglas Moreno - Sigma y CNIT Venezuela.
+PHP - The PHP Group  - https://www.php.net/
+Descubre qué es el lenguaje de programación PHP y en qué situaciones se hace útil - rockcontent - https://rockcontent.com/es/blog/php/
+Breve historia de PHP - Desarrolloweb.com - https://desarrolloweb.com/articulos/436.php
+Historia de PHP - The PHP Group - https://www.php.net/manual/es/history.php.php
+PHP está "muriendo" durante diez años - CodeTD - https://www.codetd.com/es/article/12934221
+¿Es cierto que PHP está muerto? - leewayweb - https://academy.leewayweb.com/es-cierto-que-php-esta-muerto/
+¿Acaso Ha Muerto PHP? ¡Claro que No! Por lo Menos Según las Estadísticas de Uso de PHP - Kinsta - https://kinsta.com/es/blog/acaso-ha-muerto-php/
+¿Qué es PHP? Aprende todo sobre el lenguaje de scripting - Hostinger - https://www.hostinger.mx/tutoriales/que-es-php
+Los 8 Mejores Frameworks PHP Para Desarrolladores Web - Hostinger - https://www.hostinger.es/tutoriales/mejores-frameworks-php#1_Laravel
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+Introdución.
+	El lenguaje de programación PHP es de preferencia para realizar proyectos webs. Tanto su comunidad como su simplicidad hacen que este lenguaje sea muy atractivo tanto para aplicaciones complejas como simples. A pesar de su club de haters (odiadores), PHP es un lenguaje ampliamente utilizado por programadores nuevos y avanzados ya que cuenta con características avanzadas para el desarrollo web. Entre otras cosas, PHP es rápido y flexible. Favorece la conexión entre servidor e interfaz de usuario y sirve para hacer desde blogs hasta sitios más complejos. 
+
+
+¿Qué es PHP?
+	Las siglas de PHP significan: Hypertext Preprocessor o Preprocesador de hipertexto en español. Es creado con el fin de establecer dinamismo a los sitios web estáticos y actualmente se utiliza para administrar todo el contenido mostrado al cliente. PHP generalmente es definido como un lenguaje del lado del servidor. Esto significa que es el responsable de toda la lógica de negocio, seguridad, y resguardo de la información.
+
+
+Historia de PHP.
+	En un principio se llamaba PHP Tools que significaba Personal Home Page Tools. Pero luego en sus versión más recientes fue cambiado a PHP (Hypertext Preprocessor) para darle más sentido y significado a lo que se hace con PHP.
+
+	PHP nació como un CGI escrito en C que permitía la interpretación de un número limitado de comandos. El lenguaje adquirió cierta popularidad y otras personas le pidieron al programador Danés-Canadiense Ramus Lerdof (Creador de PHP) que les permitiese utilizar sus programas en sus propias páginas. Dada la aceptación el 8 de junio de 1995 fue publicado oficialmente PHP Tools. 
+
+	PHP 3.0 fue la primera versión que más se parecía al PHP que existe hoy. Pero no fue hasta PHP 5.0 con su motor Zend Engine 2.0 cuando PHP sería considerado un lenguaje serio. Actualmente estamos en la versión 8.1 y es la mejor versión respecto a sus antecesores en cuanto a velocidad y seguridad.  
+
+Características.
+	Hoy en día, el mercado de programación busca profesionales con experiencia en aplicaciones web y, en este escenario, PHP es el principal recurso. Quizás una de las principales razones por las cual se utiliza PHP es que este lenguaje trae una serie de características muy atractivas que las diferencia de sus posibles competidores. estas son las principales ventajas que muestran por qué PHP es un lenguaje muy utilizado:
+
+
+	Multiplataforma: Es un lenguaje que puede ser ejecutado en sistemas operativos Linux, Windows y Mac.
+	
+	Compatibilidad con muchas bases de datos: PHP ofrece la capacidad de conexión con la mayoría de los DBMS o SGBD (Sistemas gestores de bases de datos) que se utilizan en la actualidad. Tales como: MySQL, SQLite3, MariaDB, SQLServer, PostgreSQL, Oracle, entre otros. 
+
+	Código Abierto: PHP es libre, puede ser usado por todos sin ningún tipo de restricciones, además de que puedes modificarlo y tratarlo a tu gusto. Este se presenta como una alternativa de fácil acceso para todos los programadores. 
+
+	Admite una gran cantidad de datos: Es capaz de leer y manipular datos de diversas fuentes como archivos JSON, CSV y XML. Además de tener soporte para manejar archivos PDF y TXT.
+
+	Aprendizaje simplificado: El lenguaje PHP se considera uno de los más fáciles de aprender entre las muchas opciones que un programador puede y debe tener en su portfolio de recursos y conocimientos.
+	 
+	Comunidad: Cuenta con una amplia documentación en su página oficial. Pero sin duda alguna, su comunidad es bastante activa y seguro encontrarás tutoriales para cualquier tipo de proyecto y respuestas a posibles problemas. 
+	
+	Paradigma de programación: Con PHP podemos programar de forma estructurada o procedimental. Pero, lo que más se utiliza y lo más profesional es utilizar POO y PHP es perfecto para este paradigma. 
+
+	Hecho para la web: PHP fue creado para trabajar en la web. Mucho de su contenido está acondicionado para trabajar de forma eficaz. Por ejemplo: Formularios, Correos, Métodos HTTP, entre otros.
+
+	Librerías y Frameworks: Cuenta con una biblioteca nativa para realizar tareas comunes. Además de que podemos importar y exportar nuestros propios módulos. Pero lo que más resalta de PHP son sus Frameworks que te aportan lo necesario para crear proyectos avanzados.
+
+
+Uso del lenguaje.
+	Interfaces gráficas: PHP se puede combinar con GTK (GIMP Tool Kit), lo que permite desarrollar aplicaciones de escritorio. Quiero decir que la comunidad no es muy activa en este sentido con lo que te encontrarás muy poco contenido relacionado con este tipo de desarrollo. Es posible hacer interfaces pero no es recomendable para proyectos serios. 
+
+	Scripting: También se puede utilizar para programación en consola, al estilo de Perl o Shell. Las aplicaciones generalmente corren a través de línea de comandos de GNU/Linux. 	 
+	
+	Aplicaciones web: Su principal utilidad es en la creación de aplicaciones web. Es esencial para desarrollar sitios que tienen funcionalidades complejas, bases de datos, plugins y gran rendimiento web.
+
+
+¿PHP está muerto?
+	La muerte de PHP es real para quienes odian PHP. Existen quienes se excusan de las malas prácticas de los desarrolladores, lo cierto es que no es culpa del lenguaje que ciertos programadores no realicen buenas prácticas de programación. Otros dicen que la tendencia es Javascript u otro lenguaje. La popularidad no debería ser la razón de si trabajar o no con un lenguaje, la razón debería ser si te resuelve o no un problema, y en cuanto a la web, PHP resuelve la mayoría de los problemas.  
+
+	Lo que no hay que negar es que PHP no es la opción más sexy a la hora de realizar proyectos nuevos, pero siempre termina triunfando por sus innegables ventajas. 
+
+	PHP lleva sufriendo desde hace 10 años. Algo que siempre se ha dicho pero nunca ha pasado y nunca pasará. lo que sí es verdad es que plataformas como WordPress y Frameworks como Laravel mantiene más vivo al lenguaje y siguen atrayendo muchos programadores nuevos. 
+
+Principales Frameworks.
+	Wordpress es un CMS (Content Management System o Gestor de contenido) y es una de las herramientas más utilizada no sólo cuando se habla de PHP sino cuando se habla de toda la web. Gracias a este utensilio PHP sigue siendo el lenguaje de preferencia para la web. Pero la verdad, como programador que le gusta construir aplicaciones artesanas, lo más divertido son los frameworks de PHP. Según Hostinger, los frameworks más utilizados son: 
+
+	Laravel: 
+		'Cuando la gente habla de frameworks PHP, uno de los nombres que suena más frecuentemente es Laravel. Este framework en particular es conocido por su elegante sintaxis que es fácil de entender y es un placer para trabajar. Con Laravel, puedes comenzar a trabajar en tus proyectos rápidamente. También podrás omitir una gran cantidad de elementos básicos, ya que tendrás acceso a funciones como la autenticación de usuarios, la administración de sesiones y el almacenamiento en caché. En general, Laravel reúne toda la funcionalidad que necesitarás para construir una aplicación PHP moderna, lo cual ya dice mucho. Si estás interesado en las razones técnicas por las cuales es una buena idea usar Laravel, podemos resumirlas fácilmente. En primer lugar, el núcleo de Laravel es sólido desde el punto de vista del rendimiento, y puedes ampliar el framework utilizando muchas extensiones.' 'Autor: Hostinger'.
+
+	Codelgniter:
+		'CodeIgniter es un framework PHP que usa una arquitectura de Model View Controller (MVC). En términos sencillos, esto significa que CodeIgniter utiliza diferentes componentes para manejar tareas de desarrollo específicas. Este enfoque es muy popular entre los desarrolladores porque permite crear aplicaciones web altamente escalables con un tamaño más reducido. Si eres nuevo en los frameworks PHP, CodeIgniter puede ser una excelente opción porque es bastante fácil de aprender y fácil para comenzar. Además, la plataforma cuenta con una excelente documentación, lo que quiere decir que no deberías tener dificultades para aprender lo básico. CodeIgniter también ofrece un rendimiento sólido, lo que significa que es ideal para crear aplicaciones ligeras que se ejecuten bien en servidores modestos.' 'Autor: Hostinger'.
+
+	Symfony: 
+			
+
+
+Conclusión.
+	PHP es unos de los mejores lenguajes de programación para la web, para no decir que el mejor. Y es que su amplia comunidad y Frameworks hacen más fácil y sublime el proceso de desarrollo. No obstante, PHP no está muriendo a pesar de que sus odiadores así lo quieran, PHP sigue más fuerte que nunca pero también es válido decir que es un lenguaje de la web, para la web. Y a pesar de que se puedan realizar otro tipo de programas, no es lo común y tampoco es lo recomendable por su escasa comunidad y documentación para las otras áreas. 
