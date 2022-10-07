@@ -14,7 +14,7 @@ author_controller = Author_Controller()
 def index():
 	author = author_controller.get_author()
 	parameters 	= {"title": author.name,
-				   "description": author.introduction[0:140],
+				   "description": author.title,
 				   "Author": author,
 				   "Tag": tag_controller.read(),
 				   "Theme": theme_controller.read()
@@ -28,7 +28,7 @@ def tag(tag):
 	tag = tag.replace("_", " ")
 	tag = tag_controller.read_only(tag)
 	author = author_controller.get_author()
-	parameters 	= {"title": tag.name,
+	parameters 	= {"title": tag.title,
 				   "description": tag.introduction[0:140],
 				   "Author": author,
 				   "Tag": tag,
@@ -45,7 +45,7 @@ def theme(tag, theme):
 	tag = tag.replace("_", " ")
 	theme = theme_controller.read_only(theme)
 	tag = tag_controller.read_only(tag)
-	parameters 	= {"title": theme.name,
+	parameters 	= {"title": theme.title,
 				   "description": theme.introduction[0:140],
 				   "Tag": tag,
 				   "Theme": theme
