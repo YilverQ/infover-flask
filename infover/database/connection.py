@@ -1,15 +1,16 @@
 #Base de datos
 import json
 import os
-from dotenv import load_dotenv
-load_dotenv()
+from config import Config
 
 #Ubicación de nuestra base de datos NoSQL.
-DB_PATH = os.environ.get("DATABASE_PATH", "")
+config = Config()
+DB_PATH = config.DATABASE_PATH
 
 
 #Obtenemos todos los datos de nuestra base de datos.
 def get_data():
+	print("HOlaAAAAAA####", DB_PATH)
 	with open(DB_PATH, "r") as json_file:
 		return json.load(json_file)
 

@@ -1,19 +1,9 @@
-#Este archivo contiene las actualizaciones más recientes de la aplicación.
-
-"""
-	Estructura de las actualizaciones:
-__Fecha__
-__Version__
-__Información__
-__TrabajoFuturo__
-"""
-
 #__ $$ __#
-Fecha: 28 de Mayo del 2021
-Version: 0.3.1
+Fecha: 05 de Abril del 2025
+Version: 0.4.1
 ¿¿__Información__??
-    Se completo la documentación del código, 
-    la mayoría por parte de los archivos .py
+    * Se actualizó las librerías de python
+    * Se instaló un ORM (PEEWEE).
 
 
 #__ $$ __#
@@ -25,3 +15,10 @@ Version: 0.4.0
     Se trabajó nuevamente en los archivos CSS. Ahora se trabaja con CSS Grid y metología BEM.
     Se agregó iconos y enlaces a mis redes. Github/Linkedin/Email.
     Se cambió la estructura del proyecto. Ahora se trabaja con MVC.
+
+#__ $$ __#
+Fecha: 28 de Mayo del 2021
+Version: 0.3.1
+¿¿__Información__??
+    Se completo la documentación del código, 
+    la mayoría por parte de los archivos .py
